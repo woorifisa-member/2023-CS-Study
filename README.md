@@ -18,18 +18,27 @@
     <td><a href="">김승연</a></td>
     <td><a href="">김민준</a></td>
     <td><a href="">복영빈</a></td>
-    <td><a href="">임예</a></td>
+    <td><a href="">임예지</a></td>
   </tr>
 </table>
 
 <br>
 
-**Commit convention rule**
-해당주-[주제]-내용-상태(Add/Update/Delete)  `ex) 2주차-[Algorithm]-Sort-Add`
+
+**진행 방식**
+- 진행 기간 : 5, 6, 7월
+- 진행 방법
+  - 대분류별 하나의 주제를 선택하여 개인 학습 후 Github .md 파일 작성
+  - 매주 혹은 격주로 담당 주제 발표 및 피드백 (30분~1시간)
+- 주제 선정 방식 : 매주 대분류별 로테이션으로 돌아가며 배정
+
+**Commit convention rule** 
+해당주-[주제]-내용-상태(Add/Update/Delete) 
+`ex) 2주차-[Algorithm]-Sort-Add`
 
 <br><br>
 
-- ### Computer Architecture
+### Computer Architecture
 - [컴퓨터 구조 기초]
 - [컴퓨터의 구성]
 - [중앙처리장치(CPU) 작동 원리]
@@ -39,7 +48,7 @@
 - [ARM 프로세서]
 <br>
 
-- ### Data Structure
+### Data Structure
 - [Array]
 - [LinkedList]
 - [Array & ArrayList & LinkedList]
@@ -52,7 +61,7 @@
 - [B-Tree & B+Tree]
 <br>
 
-- ### Database
+### Database
 - [키(Key) 정리]
 - [SQL - JOIN]
 - [SQL Injection]
@@ -65,7 +74,7 @@
 - [저장 프로시저(Stored PROCEDURE)]
 <br>
 
-- ### Network
+### Network
 - [OSI 7 계층]
 - [TCP 3 way handshake & 4 way handshake]
 - [TCP/IP 흐름제어 & 혼잡제어]
@@ -78,7 +87,7 @@
 - [Blocking & Non-Blocking I/O]
 <br>
 
-- ### OS
+### OS
 - [운영체제란]
 - [프로세스 vs 스레드]
 - [프로세스 주소 공간]
@@ -96,7 +105,7 @@
 - [파일 시스템]
  <br>
  
-- ### Software Engineering
+### Software Engineering
 - [클린코드 & 리팩토링 / 클린코드 & 시큐어코딩]
 - [TDD(Test Driven Development)]
 - [애자일(Agile) 정리1 / 애자일(Agile) 정리2]
@@ -107,7 +116,7 @@
 - [마이크로서비스 아키텍처(MSA)]
  <br>
  
- - ### Algorithm
+### Algorithm
 - [거품 정렬(Bubble Sort)]
 - [선택 정렬(Selection Sort)]
 - [삽입 정렬(Insertion Sort)]
@@ -126,7 +135,7 @@
 - [비트마스크(BitMask)]
 <br>
 
-- ### Design Pattern
+### Design Pattern
 - [싱글톤 패턴]
 - [탬플릿 메소드 패턴]
 - [팩토리 메소드 패턴]
@@ -136,4 +145,4 @@
 - [SOLID]
 <br>
 
-**진행 방식**
+
