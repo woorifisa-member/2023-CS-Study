@@ -32,11 +32,15 @@
   - 매주 혹은 격주로 담당 주제 발표 및 피드백 (30분~1시간)
 - 주제 선정 방식 : 매주 대분류별 로테이션으로 돌아가며 배정
 
+<br>
+
 **Commit convention rule** <br>
 해당주-[주제]-내용-상태(Add/Update/Delete) <br>
 `ex) 2주차-[Algorithm]-Sort-Add`
 
-<br><br>
+<br>
+<hr>
+<br>
 
 ### Computer Architecture
 - [컴퓨터 구조 기초]
