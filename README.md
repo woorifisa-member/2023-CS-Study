@@ -17,7 +17,7 @@
     <td><a href="https://github.com/ooutta">김수현</a></td>
     <td><a href="">김승연</a></td>
     <td><a href="">김민준</a></td>
-    <td><a href="">복영빈</a></td>
+    <td><a href="https://github.com/yybeen">복영빈</a></td>
     <td><a href="">임예지</a></td>
   </tr>
 </table>
