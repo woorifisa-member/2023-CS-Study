@@ -30,7 +30,6 @@
 ```
 function bubbleSort(array) {
     let temp;
-    let count = 0;
     for(let i = 0; i < array.length - 1; i++) {
         for(let j = 0; j < array.length - i - 1; j++) { 
             if(array[j] > array[j+1]) {
@@ -38,18 +37,15 @@ function bubbleSort(array) {
                 array[j] = array[j+1];
                 array[j+1] = temp;
             }
-            console.log("i=" + i + " / j=" + j);
             console.log(array);
         }
-        count++;
     }
-    console.log("Count = ", count);
 }
 
 bubbleSort([14, 12, 1, 5, 10])
 ```
 ### 실행 결과
-<img src="https://user-images.githubusercontent.com/93786956/236810226-142d7733-6adc-42e6-8a19-6c8535c5e978.png" width=40%>
+<img src="https://user-images.githubusercontent.com/93786956/236810226-142d7733-6adc-42e6-8a19-6c8535c5e978.png" width=20%>
 <br>
 
 ### 최적화
