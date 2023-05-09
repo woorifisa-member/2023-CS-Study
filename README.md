@@ -2,25 +2,10 @@
 <br>
 
 ### 🙋 Collaborator
-
-<table style="margin-left:auto; margin-right:auto;">
-  <tr>
-    <td><img src="" width="80"></td>
-    <td><img src="https://github.com/ooutta.png" width="80"></td>
-    <td><img src="" width="80"></td>
-    <td><img src="" width="80"></td>
-    <td><img src="https://github.com/yybeen.png" width="80"></td>
-    <td><img src="" width="80"></td>
-  </tr>
-  <tr>
-    <td><a href="">김성훈</a></td>
-    <td><a href="https://github.com/ooutta">김수현</a></td>
-    <td><a href="">김승연</a></td>
-    <td><a href="">김민준</a></td>
-    <td><a href="https://github.com/yybeen">복영빈</a></td>
-    <td><a href="">임예지</a></td>
-  </tr>
-</table>
+|                                                                                          |                                                                                            |                                                                                            |                                                                                         |                                                                                         |                                                                                         |
+| :--------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
+| <img src="https://avatars.githubusercontent.com/u/61442302?v=4" width=150px alt="김성훈"/> | <img src="https://avatars.githubusercontent.com/u/93786956?v=4" width=150px alt="김수현"/> | <img src="" width=150px alt="김승연"/> | <img src="https://avatars.githubusercontent.com/u/42430982?v=4" width=150px alt="김민준"> | <img src="https://avatars.githubusercontent.com/u/59864345?v=4" width=150px alt="복영빈"> |<img src="https://avatars.githubusercontent.com/u/119517146?v=4" width=150px alt="임예지"> |
+|                            [김성훈](https://github.com/kimsh2948)                             |                          [김수현](https://github.com/ooutta)                          |                           [김승연]()                           |                           [김민준](https://github.com/minjune8506)                            |                          [복영빈](https://github.com/yybeen)                          |                          [임예지](https://github.com/yj5768)                          |
 
 <br>
 
