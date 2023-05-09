@@ -1,11 +1,12 @@
 # Bubble Sort
 
 ### 목차
-1. 버블 정렬의 개념
+1. 버블 정렬이란?
 2. 예제
-3. JS/Java Code
-4. 장/단점
-5. 시간 복잡도
+3. JS Code
+4. 최적화 (+ 최적화된 JAVA Code)
+5. 장/단점
+6. 시간 복잡도
 
 
 ## 1. 버블 정렬이란?
@@ -31,7 +32,7 @@
 function bubbleSort(array) {
     let temp;
     for(let i = 0; i < array.length - 1; i++) {
-        for(let j = 0; j < array.length - i - 1; j++) { 
+        for(let j = 0; j < array.length - 1; j++) { 
             if(array[j] > array[j+1]) {
                 temp = array[j];
                 array[j] = array[j+1];
@@ -45,10 +46,19 @@ function bubbleSort(array) {
 bubbleSort([14, 12, 1, 5, 10])
 ```
 ### 실행 결과
-<img src="https://user-images.githubusercontent.com/93786956/236810226-142d7733-6adc-42e6-8a19-6c8535c5e978.png" width=20%>
+<img src="https://github.com/woorifisa/2023-CS-Study/assets/93786956/41a9d809-2d79-4f46-a813-817e4281c414" width=25%>
 <br>
 
-### 최적화
+### 문제점
+이전 회차에서 자리 비교가 한 번도 일어나지 않았다
+-> 정렬이 일어나지 않았다.
+-> 정렬이 완료되었다.
+
+기존 코드는 이미 정렬이 완료되었어도, n * n번의 for문을 게속 실행한다.
+--> 정렬이 완료된 경우, 루프를 취소하고 빠져 나오도록 한다. 
+
+### 4. 최적화
+#### JS
 ```
 function OptimizedBubbleSort(array) {
     let temp;
@@ -56,7 +66,7 @@ function OptimizedBubbleSort(array) {
     for(let i = 0; i < array.length - 1; i++) {
         swap = false;
 
-        // 한바퀴를 돈 후에는 맨 뒤로 정렬된 가장 큰 값은 비교 제외
+        // 한 번의 반복 후에는 맨 뒤로 정렬된 가장 큰 값은 비교 제외
         for(let j = 0; j < array.length - i - 1; j++) { 
             if(array[j] > array[j+1]) {
                 temp = array[j];
@@ -72,6 +82,42 @@ function OptimizedBubbleSort(array) {
 
 OptimizedBubbleSort([14, 12, 1, 5, 10])
 ```
-### 실행 결과
-<img src="" width=40%>
+
 <br>
+
+#### JAVA
+```
+import java.util.Arrays;
+
+public class main
+{
+    public static void main(String[] args)
+    {
+        int[] array = { 14, 12, 1, 5, 10 };
+		int temp, count = 0;
+        boolean swap;
+        
+		for(int i = 0; i < array.length - 1; i++) {
+            swap = false;
+			for(int j = 0; j < array.length - i - 1; j++) {
+				if(array[j] > array[j + 1]) {
+					temp = array[j];
+					array[j] = array[j + 1];
+					array[j + 1] = temp;
+                    swap = true;
+				}
+                System.out.println(Arrays.toString(array));
+                count++;
+			}
+            if(!swap) break;
+		}
+        System.out.println(count);
+    }
+}
+```
+### 실행 결과
+<img src="https://github.com/woorifisa/2023-CS-Study/assets/93786956/cbecd2e9-b578-4837-b834-8d0e99874cfb" width=25%>
+<br>
+
+
+1주차-[Algorithm]-Bubble_Sort-Update
