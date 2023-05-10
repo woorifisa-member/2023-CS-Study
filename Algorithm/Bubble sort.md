@@ -1,6 +1,6 @@
 # Bubble Sort
 
-### 목차
+## 목차
 1. 버블 정렬이란?
 2. 예제
 3. JS Code
@@ -9,9 +9,10 @@
 6. 시간 복잡도
 
 <br>
+<br>
 
 ## 1. 버블 정렬이란?
-서로 **이웃**한 값과 비교하여, 더 **작은 값을 앞으로 이동**시키며 정렬한다. 
+서로 `이웃`한 값과 비교하여, 더 `작은 값을 앞으로 이동`시키며 정렬한다. 
 <br>
 
 (정렬을 하는 방식이 물속에서 물 위로 올라오는 물방울 모양 같다고 해서 버블 정렬이라고 한다.)
@@ -20,6 +21,7 @@
 <br>
 
 ## 2. 예제
+<div align='center'> 
 <img src="https://user-images.githubusercontent.com/93786956/236809472-104d4d85-9e36-42bf-8847-6eb19dc7620d.png" width=40%>
 <br>
 
@@ -29,6 +31,8 @@
 
 ### 2회차
 <img src="https://user-images.githubusercontent.com/93786956/236809624-ed9e9c59-07ec-47a6-b34e-5fa4929a4e2b.png" width=30%>
+</div>
+
 <br>
 <br>
 
@@ -52,7 +56,9 @@ function bubbleSort(array) {
 bubbleSort([14, 12, 1, 5, 10])
 ```
 ### 실행 결과
+<div align='center'>  
 <img src="https://github.com/woorifisa/2023-CS-Study/assets/93786956/41a9d809-2d79-4f46-a813-817e4281c414" width=25%>
+</div>
 <br>
 
 ### 문제점
@@ -66,7 +72,7 @@ bubbleSort([14, 12, 1, 5, 10])
 <br>
 
 ## 4. 최적화
-#### JS
+### JS
 ```
 function OptimizedBubbleSort(array) {
     let temp;
@@ -92,7 +98,7 @@ OptimizedBubbleSort([14, 12, 1, 5, 10])
 
 <br>
 
-#### JAVA
+### JAVA
 ```
 import java.util.Arrays;
 
@@ -119,11 +125,15 @@ public class main {
 }
 ```
 ### 실행 결과
+<div align='center'>  
 <img src="https://github.com/woorifisa/2023-CS-Study/assets/93786956/cbecd2e9-b578-4837-b834-8d0e99874cfb" width=25%>
+</div>
 <br>
 
 ### 실행 결과
+<div align='center'>   
 <img src="https://github.com/woorifisa/2023-CS-Study/assets/93786956/4c5c1e4d-ffa7-4655-90dd-c9995527862c" width=25%>
+</div>
 <br>
 <br>
 
@@ -138,14 +148,14 @@ public class main {
 <br>
 
 ## 6. 시간 복잡도
-#### 최적화 전
+### 최적화 전
 |Average|Best|Worst|
 |:---:|:---:|:---:|
 |O(n*2)|O(n*2)|O(n*2)|
 
 <br>
 
-#### 최적화 후
+### 최적화 후
 |Average|Best|Worst|
 |:---:|:---:|:---:|
 |O(n*2)|O(n)|O(n*2)|
