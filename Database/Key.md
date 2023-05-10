@@ -4,8 +4,11 @@
 - 튜플? : 릴레이션을 구성하는 각각의 행, 속성의 모임으로 구성된다.
     - 릴레이션 기본 구조
     <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F9PZHv%2Fbtq2lAE2xpY%2FHfgOTfyyYlhGDH0bLt4IIk%2Fimg.png"/>
+<br/>
 
 # Key의 종류
+
+<img src="https://velog.velcdn.com/images/hoha/post/be7bdce1-d4e6-45a7-b528-634f5257c714/image.png"/>
 
 ## 슈퍼키 ****(Super Key)****
 
@@ -33,6 +36,7 @@
 - 한 테이블이 다른 테이블의 기본키를 참조해서 테이블 간의 관계를 만드는 것을 의미한다.
 - 한 릴레이션에 속한 속성 A와 참조 릴레이션의 기본키인 B가 동일한 도메인상에서 정의되었을 때의 속성 A를 외래키라고 한다.
 - 외래키로 지정되면 참조 릴레이션의 기본키에 없는 값은 입력할 수 없다.
+<br/>
 
 
 # Key 사용 이유
