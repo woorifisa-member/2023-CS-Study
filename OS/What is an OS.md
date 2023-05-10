@@ -98,7 +98,7 @@
 <br>
 <br>
 cf) [만약 운영체제가 없다면?](https://www.slideshare.net/ssuser889640/computer-without-os)
-
+<br>
 <br>
 <h3>2. 운영체제는 문제해결의 실마리를 알려주고 능력을 키워준다.:heavy_exclamation_mark:</h4>
 <br>운영체제는 대화할 수 있다.
