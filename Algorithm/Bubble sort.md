@@ -79,8 +79,8 @@ function OptimizedBubbleSort(array) {
                 array[j] = array[j+1];
                 array[j+1] = temp;
                 swap = true;
-                console.log(array);
             }
+	    console.log(array);
         }
         if(!swap) break;
     }
