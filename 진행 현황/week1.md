@@ -6,8 +6,6 @@
 
 - 김승연 : Design Pattern-Singleton
 
-- 김민준 : Data Structure-Array
-
 - 복영빈 : Network-OSI 7 계층
 
 - 임예지 : OS-운영체제란
