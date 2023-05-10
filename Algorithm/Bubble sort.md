@@ -24,11 +24,11 @@
 <br>
 
 ### 1회차
-<img src="https://user-images.githubusercontent.com/93786956/236809589-917dc438-cc0e-4ad5-a3b7-a3f8687442d2.png" width=40%>
+<img src="https://user-images.githubusercontent.com/93786956/236809589-917dc438-cc0e-4ad5-a3b7-a3f8687442d2.png" width=30%>
 <br>
 
 ### 2회차
-<img src="https://user-images.githubusercontent.com/93786956/236809624-ed9e9c59-07ec-47a6-b34e-5fa4929a4e2b.png" width=40%>
+<img src="https://user-images.githubusercontent.com/93786956/236809624-ed9e9c59-07ec-47a6-b34e-5fa4929a4e2b.png" width=30%>
 <br>
 <br>
 
