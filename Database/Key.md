@@ -4,6 +4,7 @@
 - 튜플? : 릴레이션을 구성하는 각각의 행, 속성의 모임으로 구성된다.
     - 릴레이션 기본 구조
     <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F9PZHv%2Fbtq2lAE2xpY%2FHfgOTfyyYlhGDH0bLt4IIk%2Fimg.png"/>
+    
 <br/>
 
 # Key의 종류
