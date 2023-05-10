@@ -35,6 +35,7 @@ add/fix : 해당주-대분류-[주제]<br>
 <details>
 <summary>Computer Architecture</summary>
 <div markdown="1">
+  
 - 컴퓨터 구조 기초<br>
 - 컴퓨터의 구성<br>
 - 중앙처리장치(CPU) 작동 원리<br>
@@ -49,6 +50,7 @@ add/fix : 해당주-대분류-[주제]<br>
 <details>
 <summary>Data Structure</summary>
 <div markdown="1">
+  
 - Array<br>
 - LinkedList<br>
 - Array & ArrayList & LinkedList<br>
@@ -66,6 +68,7 @@ add/fix : 해당주-대분류-[주제]<br>
 <details>
 <summary>Database</summary>
 <div markdown="1"> 
+  
 - 키(Key) 정리<br>
 - SQL - JOIN<br>
 - SQL Injection<br>
@@ -83,6 +86,7 @@ add/fix : 해당주-대분류-[주제]<br>
 <details>
 <summary>Network</summary>
 <div markdown="1"> 
+  
 - OSI 7 계층<br>
 - TCP 3 way handshake & 4 way handshake<br>
 - TCP/IP 흐름제어 & 혼잡제어<br>
@@ -100,6 +104,7 @@ add/fix : 해당주-대분류-[주제]<br>
 <details>
 <summary>OS</summary>
 <div markdown="1"> 
+  
 - 운영체제란<br>
 - 프로세스 vs 스레드<br>
 - 프로세스 주소 공간<br>
@@ -122,14 +127,15 @@ add/fix : 해당주-대분류-[주제]<br>
 <details>
 <summary>Software Engineering</summary>
 <div markdown="1"> 
-- 클린코드 & 리팩토링 / 클린코드 & 시큐어코딩
-- TDD(Test Driven Development)
-- 애자일(Agile) 정리1 / 애자일(Agile) 정리2
-- 객체 지향 프로그래밍(Object-Oriented Programming)
-- 함수형 프로그래밍(Fuctional Programming)
-- 데브옵스(DevOps)
-- 서드 파티(3rd party)란?
-- 마이크로서비스 아키텍처(MSA)
+  
+- 클린코드 & 리팩토링 / 클린코드 & 시큐어코딩<br>
+- TDD(Test Driven Development)<br>
+- 애자일(Agile) 정리1 / 애자일(Agile) 정리2<br>
+- 객체 지향 프로그래밍(Object-Oriented Programming)<br>
+- 함수형 프로그래밍(Fuctional Programming)<br>
+- 데브옵스(DevOps)<br>
+- 서드 파티(3rd party)란?<br>
+- 마이크로서비스 아키텍처(MSA)<br>
 </div>
 </details>
  <br>
@@ -161,6 +167,7 @@ add/fix : 해당주-대분류-[주제]<br>
 <details>
 <summary>Design Pattern</summary>
 <div markdown="1">
+  
 - 싱글톤 패턴<br>
 - 탬플릿 메소드 패턴<br>
 - 팩토리 메소드 패턴<br>
