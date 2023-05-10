@@ -72,7 +72,6 @@ function OptimizedBubbleSort(array) {
     for(let i = 0; i < array.length - 1; i++) {
         swap = false;
 
-        // 한 번의 반복 후에는 맨 뒤로 정렬된 가장 큰 값은 비교 제외
         for(let j = 0; j < array.length - i - 1; j++) { 
             if(array[j] > array[j+1]) {
                 temp = array[j];
@@ -95,29 +94,25 @@ OptimizedBubbleSort([14, 12, 1, 5, 10])
 ```
 import java.util.Arrays;
 
-public class main
-{
-    public static void main(String[] args)
-    {
+public class main {
+    public static void main(String[] args) {
         int[] array = { 14, 12, 1, 5, 10 };
-		int temp, count = 0;
+	int temp;
         boolean swap;
         
-		for(int i = 0; i < array.length - 1; i++) {
-            swap = false;
-			for(int j = 0; j < array.length - i - 1; j++) {
-				if(array[j] > array[j + 1]) {
-					temp = array[j];
-					array[j] = array[j + 1];
-					array[j + 1] = temp;
-                    swap = true;
-				}
-                System.out.println(Arrays.toString(array));
-                count++;
+	for(int i = 0; i < array.length - 1; i++) {
+         	swap = false;
+		for(int j = 0; j < array.length - i - 1; j++) {
+			if(array[j] > array[j + 1]) {
+				temp = array[j];
+				array[j] = array[j + 1];
+				array[j + 1] = temp;
+                    		swap = true;
 			}
-            if(!swap) break;
+                	System.out.println(Arrays.toString(array));
 		}
-        System.out.println(count);
+            	if(!swap) break;
+	  }
     }
 }
 ```
