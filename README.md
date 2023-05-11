@@ -87,7 +87,7 @@ add/fix : 해당주-대분류-[주제]<br>
 <summary>Network</summary>
 <div markdown="1"> 
   
-- OSI 7 계층<br>
+- [OSI 7 계층](https://github.com/woorifisa/2023-CS-Study/blob/main/Network/OSI%207%20Layer.md)<br>
 - TCP 3 way handshake & 4 way handshake<br>
 - TCP/IP 흐름제어 & 혼잡제어<br>
 - UDP<br>
