@@ -105,7 +105,7 @@ add/fix : 해당주-대분류-[주제]<br>
 <summary>OS</summary>
 <div markdown="1"> 
   
-- 운영체제란<br>
+- [운영체제란](https://github.com/woorifisa/2023-CS-Study/blob/main/OS/What%20is%20an%20OS.md)<br>
 - 프로세스 vs 스레드<br>
 - 프로세스 주소 공간<br>
 - 인터럽트(Interrupt)<br>
