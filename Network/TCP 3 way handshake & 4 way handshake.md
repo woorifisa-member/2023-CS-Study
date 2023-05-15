@@ -17,7 +17,10 @@
 <br>
 
 ### TPC Segment 구조
-(이미지 첨부)
+<div align='center'>   
+    <img src="img/TCP 3 way handshake & 4 way handshake_1.png" width="300px">
+</div>
+
 - Source port : 출발지 포트 번호
 - Destination port : 목적지 포트 번호
 - sequence numbers : 세그먼트 내 데이터의 첫 바이트 번호
@@ -47,7 +50,10 @@
 
 ## TCP 3-way handshake
 - TCP 통신을 이용하여 데이터를 전송하기 위해 네트워크 연결을 `수립`하는 과정이다.
-(이미지 첨부)
+<div align='center'>   
+    <img src="img/TCP 3 way handshake & 4 way handshake_2.png" width="750px">
+</div>
+
 - 연결 수립 과정
   1. 클라이언트 -> 서버 : 클라이언트는 초기번호 `x`를 고르고 서버에게 접속을 요청하는 `SYN` 패킷을 송신한다. 
      - 클라이언트 상태 : LISTEN -> `SYN_SENT`
@@ -63,7 +69,10 @@
 
 ## TCP 4-way handshake
 - TCP의 연결을 `해제`하는 과정이다.
-(이미지 첨부)
+<div align='center'>   
+    <img src="img/TCP 3 way handshake & 4 way handshake_3.png" width="750px">
+</div>
+
 - 해제 과정
   1. 클라이언트 -> 서버 : 클라이언트가 서버에게 연결 종료 요청 `FIN`을 송신한다.
       - 클라이언트 상태 : ESTABLISHED -> `FIN_WAIT_1`
