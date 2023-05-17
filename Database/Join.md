@@ -5,18 +5,15 @@
 JOIN을 사용하기 위해선 두 테이블에 모두 존재하는 `공통 칼럼`이 있어야 한다. <br /><br />
 
 ## <목차>
-1. INNER JOIN
-    1.1 INNER JOIN 종류
-2. OUTER JOIN
-    2.1 LEFT(RIGHT) OUTER JOIN, FULL OUTER JOIN  
+    1. INNER JOIN
+        1.1 INNER JOIN 종류
+    2. OUTER JOIN
+        2.1 LEFT(RIGHT) OUTER JOIN, FULL OUTER JOIN  
+
 
 <br />
 
-## 1. INNER JOIN
-
-<br />
-
-### INNER JOIN
+### 1. INNER JOIN
 * 특정 컬럼을 기준으로 정확히 매칭된 행들만 추출하는 것
 * 두 테이블의 특정 칼럼(join시 연결에 사용한 칼럼)이 동일한 행만 추출한다.
 * 즉, 두 테이블의 교집합을 추출하는 것
@@ -65,7 +62,7 @@ ON A.FOODNM = B.FOODNM;
 
 <br />
 
-### OUTER JION
+### 2. OUTER JION
 *   조인하는 테이블에서 한 쪽에는 데이터가 있고, 한 쪽에는 데이터가 없는 경우, 데이터가 있는 쪽 테이블의 내용을 모두 출력하는 것
 *   조건에 맞지 않아도 해당하는 챙을 출력하고 싶을 때 사용할 수 있다.
   
@@ -77,7 +74,7 @@ ON A.FOODNM = B.FOODNM;
 
 <br />
 
-#### LEFT OUTER JOIN 예시
+#### 2.1 LEFT OUTER JOIN
 
 <br />
 
@@ -117,7 +114,7 @@ ON A.FOODNM = B.FOODNM;
   
 * RIGHT OUTER JOIN의 경우 LEFT와 반대
   
-### FULL JOIN
+### 2.2 FULL JOIN
 
 * 양쪽 모두에 조건이 일치하지 않는 것들까지 모두 결합한다.
 * 즉, LEFT OUTER JOIN과 RIGHT OUTER JOIN을 합친 것에서 중복 행을 제거한 것과 같다.
