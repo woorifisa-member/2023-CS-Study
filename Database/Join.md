@@ -1,22 +1,16 @@
 # Join
 
-정의 : 두 개의 테이블을 서로 묶어서 하나의 결과를 만들어 내는 것을 말한다.
-사용 목적 : 검색하고 싶은 데이터가 한개의 테이블이 아닌 여러개의 테이블에 나누어져 있을 때 데이터를 한번에 검색하기 위함
-JOIN을 사용하기 위해선 두 테이블에 모두 존재하는 `공통 칼럼`이 있어야 한다.
+정의 : 두 개의 테이블을 서로 묶어서 하나의 결과를 만들어 내는 것을 말한다.<br/>
+사용 목적 : 검색하고 싶은 데이터가 한개의 테이블이 아닌 여러개의 테이블에 나누어져 있을 때 데이터를 한번에 검색하기 위함.<br/>
+JOIN을 사용하기 위해선 두 테이블에 모두 존재하는 `공통 칼럼`이 있어야 한다.<br/>
 
-## 목차 (대분류)
- - INNER JOIN
- - OUTER JOIN (LEFT, RIGHT, FULL OUTER JOIN)
-
-### 소분류
+## 목차
+- INNER JOIN
  - INNER JOIN 종류
- - OUTER JOIN 종류
- - 정리
+- OUTER JOIN
+ - LEFT(RIGHT) OUTER JOIN, FULL OUTER JOIN <bt/>
 
-
-
-
-#### INNER JOIN
+### INNER JOIN
 
 ![image](https://github.com/woorifisa/2023-CS-Study/assets/61819350/71c5f48e-5753-40ff-ac4b-8c16854ba3f5)
 
