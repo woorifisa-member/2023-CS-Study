@@ -70,7 +70,7 @@
 <summary>Database</summary>
 <div markdown="1"> 
   
-- 키(Key) 정리<br>
+- [키(Key) 정리](https://github.com/woorifisa/2023-CS-Study/blob/main/Database/Key.md)<br>
 - [SQL - JOIN](https://github.com/woorifisa/2023-CS-Study/blob/main/Database/Join.md)<br>
 - SQL Injection<br>
 - SQL vs NoSQL<br>
@@ -171,7 +171,7 @@
 <div markdown="1">
   
 - [싱글톤 패턴](https://github.com/woorifisa/2023-CS-Study/blob/main/Design%20Pattern/Singleton.md)<br>
-- 탬플릿 메소드 패턴<br>
+- [탬플릿 메소드 패턴](https://github.com/woorifisa/2023-CS-Study/blob/main/Design%20Pattern/Template%20Method.md)<br>
 - 팩토리 메소드 패턴<br>
 - 옵저버 패턴<br>
 - 스트레티지 패턴<br>
