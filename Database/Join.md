@@ -14,6 +14,8 @@ JOIN을 사용하기 위해선 두 테이블에 모두 존재하는 `공통 칼�
  - 정리
 
 
+
+
 #### INNER JOIN
 
 ![image](https://github.com/woorifisa/2023-CS-Study/assets/61819350/71c5f48e-5753-40ff-ac4b-8c16854ba3f5)
