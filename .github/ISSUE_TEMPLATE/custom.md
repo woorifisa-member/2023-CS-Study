@@ -1,7 +1,7 @@
 ---
 name: Custom issue template
 about: Describe this issue template's purpose here.
-title: ''
+title: "[ 월 / 주차] 담당 및 일정"
 labels: ''
 assignees: ''
 
