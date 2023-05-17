@@ -77,13 +77,14 @@ ON A.FOODNM = B.FOODNM;
 
 
 #### 정리 (면접 질문 예시)
-Q. inner join과 outer join의 차이를 설명해주세요
+##### Q. inner join과 outer join의 차이를 설명해주세요
 
 A. inner join은 서로 연관된 내용만 검색하는 조인 방법입니다. 결합할 때 사용하는 칼럼이 동일한 행만 추출하게 됩니다. (두 테이블의 교집합)
 
 A. outer join은 한 쪽에는 데이터가 있고 한 쪽에는 데이터가 없는 경우, 데이터가 있는 쪽의 내용을 전부 출력하는 방법입니다. (두 테이블의 합집합)
 
-Q. JOIN에서 ON이 WHERE의 차이를 설명해주세요.
+
+##### Q. JOIN에서 ON이 WHERE의 차이를 설명해주세요.
 
 A. ON이 WHERE보다 먼저 실행되어 JOIN을 하기 전에 필터링을 하고 WHERE는 JOINDMF 한 후에 필터링을 합니다.
    즉, ON 조건으로 필터링이 된 레코들간 JOIN이 이루어지고 JOIN을 한 결과에서 WHERE 조건절로 필터링이 이뤄집니다.
