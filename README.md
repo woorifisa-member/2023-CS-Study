@@ -51,7 +51,7 @@ add/fix : 해당주-대분류-[주제]<br>
 <summary>Data Structure</summary>
 <div markdown="1">
   
-- Array<br>
+- [Array](https://github.com/woorifisa/2023-CS-Study/blob/main/Data%20Structure/Array.md)<br>
 - LinkedList<br>
 - Array & ArrayList & LinkedList<br>
 - 스택(Stack) & 큐(Queue)<br>
