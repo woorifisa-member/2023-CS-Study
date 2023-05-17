@@ -26,12 +26,6 @@
 <br>
 <br>
 
-## ✍🏻 Commit convention rule <br>
-add/fix : 해당주-대분류-[주제]<br>
-`ex) fix : 2주차-Algorithm-[Bubble Sort]`
-
-<br>
-
 <hr>
 
 <br>
