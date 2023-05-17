@@ -21,7 +21,7 @@ JOIN을 사용하기 위해선 두 테이블에 모두 존재하는 `공통 칼�
 <br />
 
 <div align='center'>   
-    <img src="img/database_join_1.jpg" width="750px">
+    <img src="img/database_join_1.png" width="750px">
 </div>
 
 <br />
@@ -30,6 +30,7 @@ JOIN을 사용하기 위해선 두 테이블에 모두 존재하는 `공통 칼�
 
 #### 테이블 A
 |TABLE : FOOD_A|
+|----|----|
 |ID|FOODNM|
 |1|돈까스|
 |2|삼겹살|
@@ -38,6 +39,7 @@ JOIN을 사용하기 위해선 두 테이블에 모두 존재하는 `공통 칼�
 
 #### 테이블 B
 |TABLE : FOOD_B|
+|----|----|
 |ID|FOODNM|
 |1|초밥|
 |2|돈까스|
@@ -69,7 +71,7 @@ ON A.FOODNM = B.FOODNM;
 <br />
 
 <div align='center'>   
-    <img src="img/database_join_2.jpg" width="750px">
+    <img src="img/database_join_2.png" width="750px">
 </div>
 
 <br />
@@ -80,6 +82,7 @@ ON A.FOODNM = B.FOODNM;
 
 #### 테이블 A
 |TABLE : FOOD_A|
+|----|----|
 |ID|FOODNM|
 |1|돈까스|
 |2|삼겹살|
@@ -88,6 +91,7 @@ ON A.FOODNM = B.FOODNM;
 
 #### 테이블 B
 |TABLE : FOOD_B|
+|----|----|
 |ID|FOODNM|
 |1|초밥|
 |2|돈까스|
@@ -122,7 +126,7 @@ ON A.FOODNM = B.FOODNM;
 <br />
 
 <div align='center'>   
-    <img src="img/database_join_3.jpg" width="750px">
+    <img src="img/database_join_3.png" width="750px">
 </div>
 
 <br />
