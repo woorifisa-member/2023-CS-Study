@@ -21,7 +21,7 @@ JOIN을 사용하기 위해선 두 테이블에 모두 존재하는 `공통 칼�
 <br />
 
 <div align='center'>   
-    <img src="img/database_join_1.png" width="750px">
+    <img src="img/database_join_1.png" width="550px">
 </div>
 
 <br />
@@ -71,7 +71,7 @@ ON A.FOODNM = B.FOODNM;
 <br />
 
 <div align='center'>   
-    <img src="img/database_join_2.png" width="750px">
+    <img src="img/database_join_2.png" width="550px">
 </div>
 
 <br />
@@ -126,7 +126,7 @@ ON A.FOODNM = B.FOODNM;
 <br />
 
 <div align='center'>   
-    <img src="img/database_join_3.png" width="750px">
+    <img src="img/database_join_3.png" width="550px">
 </div>
 
 <br />
@@ -162,6 +162,6 @@ ON A.FOODNM = B.FOODNM;
 <br /><br />
  
 #### Reference
-https://cceeun.tistory.com/189
+https://cceeun.tistory.com/189<br />
 https://admm.tistory.com/40
   
