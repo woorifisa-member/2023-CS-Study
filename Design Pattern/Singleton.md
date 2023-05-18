@@ -36,7 +36,7 @@
 
 ## 4. 구현
 <br />
-``` java
+```java
 
 public class Singleton {
 
