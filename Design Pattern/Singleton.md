@@ -36,7 +36,8 @@
 
 ## 4. 구현
 <br />
-```
+``` java
+
 public class Singleton {
 
     private static Singleton instance = new Singleton();
@@ -53,6 +54,7 @@ public class Singleton {
         System.out.println("hi, there");
     }
 }
+
 ```
 
 <br /><br />
