@@ -1,5 +1,6 @@
 # 싱글톤 패턴
 
+<br />
 
 ## 목차
 1. 싱글톤 패턴이란?
@@ -35,7 +36,7 @@
 
 ## 4. 구현
 <br />
-```java
+```
 public class Singleton {
 
     private static Singleton instance = new Singleton();
