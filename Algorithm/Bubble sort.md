@@ -22,15 +22,15 @@
 
 ## 2. 예제
 <div align='center'> 
-<img src="https://user-images.githubusercontent.com/93786956/236809472-104d4d85-9e36-42bf-8847-6eb19dc7620d.png" width=40%>
+<img src="img/Bubble sort_1.png" width=40%>
 <br>
 
 ### 1회차
-<img src="https://user-images.githubusercontent.com/93786956/236809589-917dc438-cc0e-4ad5-a3b7-a3f8687442d2.png" width=30%>
+<img src="img/Bubble sort_2.png" width=30%>
 <br>
 
 ### 2회차
-<img src="https://user-images.githubusercontent.com/93786956/236809624-ed9e9c59-07ec-47a6-b34e-5fa4929a4e2b.png" width=30%>
+<img src="img/Bubble sort_3.png" width=30%>
 </div>
 
 <br>
@@ -57,7 +57,7 @@ bubbleSort([14, 12, 1, 5, 10])
 ```
 ### 실행 결과
 <div align='center'>  
-<img src="https://github.com/woorifisa/2023-CS-Study/assets/93786956/41a9d809-2d79-4f46-a813-817e4281c414" width=25%>
+<img src="img/Bubble sort_4.png" width=25%>
 </div>
 <br>
 
@@ -126,13 +126,13 @@ public class main {
 ```
 ### 실행 결과
 <div align='center'>  
-<img src="https://github.com/woorifisa/2023-CS-Study/assets/93786956/cbecd2e9-b578-4837-b834-8d0e99874cfb" width=25%>
+<img src="img/Bubble sort_5.png" width=25%>
 </div>
 <br>
 
 ### 실행 결과
 <div align='center'>   
-<img src="https://github.com/woorifisa/2023-CS-Study/assets/93786956/4c5c1e4d-ffa7-4655-90dd-c9995527862c" width=25%>
+<img src="img/Bubble sort_6.png" width=25%>
 </div>
 <br>
 <br>
