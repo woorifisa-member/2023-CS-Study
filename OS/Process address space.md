@@ -2,13 +2,13 @@
 
 ## 목차
 
-1. 주소공간
+1. [주소공간](https://github.com/woorifisa-tech/2023-CS-Study/blob/main/OS/Process%20address%20space.md#1-%EC%A3%BC%EC%86%8C%EA%B3%B5%EA%B0%84)
 
    1.1 주소공간이란?
 
    1.2 프로세스와 주소공간
 
-2. 프로세스 주소공간(메모리 공간) 종류
+2. [프로세스 주소공간(메모리 공간) 종류](https://github.com/woorifisa-tech/2023-CS-Study/blob/main/OS/Process%20address%20space.md#2-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EC%A3%BC%EC%86%8C%EA%B3%B5%EA%B0%84%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B3%B5%EA%B0%84-%EC%A2%85%EB%A5%98)
 
    2.1 코드영역
 
@@ -20,13 +20,13 @@
 
    2.5 스택영역
 
-3. Java & Javascript 코드 예시
+3. [Java & Javascript 코드 예시](https://github.com/woorifisa-tech/2023-CS-Study/blob/main/OS/Process%20address%20space.md#3-java--javascript-%EC%BD%94%EB%93%9C-%EC%98%88%EC%8B%9C)
 
    3.1 Java 코드 예시
 
    3.2 Javascript 코드 예시
 
-4. 예상 면접 질문
+4. [예상 면접 질문](https://github.com/woorifisa-tech/2023-CS-Study/blob/main/OS/Process%20address%20space.md#4-%EC%98%88%EC%83%81-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8)
 
 ## 1. 주소공간
 
