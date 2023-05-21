@@ -53,7 +53,7 @@
 <div markdown="1">
   
 - [Array](https://github.com/woorifisa/2023-CS-Study/blob/main/Data%20Structure/Array.md)<br>
-- LinkedList<br>
+- [LinkedList](https://github.com/woorifisa-tech/2023-CS-Study/blob/main/Algorithm/LinkedList.md)<br>
 - Array & ArrayList & LinkedList<br>
 - 스택(Stack) & 큐(Queue)<br>
 - 힙(Heap)<br>
