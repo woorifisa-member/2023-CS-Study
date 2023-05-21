@@ -1,4 +1,5 @@
 # LinkedList
+<br>
 
 ## 목차
 1. LinkedList란?
@@ -18,7 +19,7 @@
 
 ### 1-2. LinkedList의 구성
 <div align='center'>   
-    <img src="img/LinkedList_1.png" width="300px">
+    <img src="img/LinkedList_1.png" width="500px">
 </div>
 (가장 기본 형태인 단순 연결 리스트)
 <br>
@@ -32,6 +33,7 @@
 ### 1-3. ArrayList와 비교
 <br>
 #### 특징 비교
+<br>
 ##### ArrayList 
 - 중복을 허용하고 순서를 유지하며 인덱스로 원소들을 관리 (배열과 유사)
 - 배열과 다르게 배열을 추가하고 삭제하는 메서드가 존재 (크기 지정하지 않고 동적으로 값 추가, 삭제)
@@ -62,7 +64,7 @@
 
 ##### 검색, 삽입, 삭제시 LinkedList와 ArrayList의 성능 차이
 <div align='center'>   
-    <img src="img/LinkedList_2.png" width="300px">
+    <img src="img/LinkedList_2.png" width="500px">
 </div>
 <br>
 
@@ -94,21 +96,26 @@
 ### 3. LinkedList Java 구현
 
 #### 객체 생성
+
 ##### LinkedList.java
+
 ```java
 public class LinkedList
-```
+````
 ##### Main.java
+
 ```java
 public class Main {
 	public static void main(String[] args) {
     	LinkedList numbers = new LinkedList();
     }
 }
-```
+````
+
 <br>
 
 #### 노드 구현
+
 - head : 첫 번째 노드를 지정하는 참조값
 - tail : 마지막 노드
 - size : 노드의 크기, 노드 변경시 수정 필요
@@ -117,6 +124,7 @@ public class Main {
 <div align='center'>   
     <img src="img/LinkedList_6.png" width="300px">
 </div>
+
 <br>
 ```java
 public class LinkedList {
@@ -139,11 +147,13 @@ public class LinkedList {
         }
     }
 }
-```
+````
 <br>
 
 #### 데이터 추가
+
 ##### 시작에 추가
+
 ```java
 public void addFirst(Object input){
 	Node newNode = new Node(input); //노드 생성
@@ -156,9 +166,11 @@ public void addFirst(Object input){
     if(head.next == null)
     	tail = head;
 }
-```
+````
 <br>
+
 ##### 끝에 추가
+
 ```java
 public void addLast(Object input) {
 	Node newNode = new Node(input); //노드 생성
@@ -171,10 +183,12 @@ public void addLast(Object input) {
         size++; 
     	}
  }
-``` 
+````
+
 <br>
 
 ##### 중간에 추가
+
 ```java
 Node node(int index) {
 	Node x = head;
@@ -202,11 +216,12 @@ public void add(int k, Object input){
     }
 
 }
-``` 
+````
 <br>
 
 #### 데이터 삭제
 ##### 처음 노드 삭제
+
 ```java
 public Object removeFirst() {
 	Node temp = head; //첫번째 노드를 head로 지정
@@ -217,7 +232,7 @@ public Object removeFirst() {
     size--;
     return returnData;
 }
-``` 
+````
 <br>
 
 ##### 중간 노드 삭제
@@ -245,7 +260,7 @@ public Object remove(int k) {
     size--;
     return returnData;
 }
-``` 
+````
 <br>
 
 ##### 중간 노드 삭제
@@ -273,7 +288,7 @@ public Object remove(int k) {
     size--;
     return returnData;
 }
-``` 
+````
 <br>
 
 ## 4. 면접 예상질문
@@ -291,7 +306,7 @@ public Object remove(int k) {
 
 
 #### Reference
-https://ko.wikipedia.org/wiki/%EC%97%B0%EA%B2%B0_%EB%A6%AC%EC%8A%A4%ED%8A%B8
-https://hyeinisfree.tistory.com/64
-https://velog.io/@frombozztoang/Java-Linked-List-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0 (면접 예상질문 참고)
-https://velog.io/@humblechoi/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-Array-vs-ArrayList (Array와 ArrayList 차이)
+https://ko.wikipedia.org/wiki/%EC%97%B0%EA%B2%B0_%EB%A6%AC%EC%8A%A4%ED%8A%B8<br>
+https://hyeinisfree.tistory.com/64<br>
+https://velog.io/@frombozztoang/Java-Linked-List-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0 (면접 예상질문 참고)<br>
+https://velog.io/@humblechoi/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-Array-vs-ArrayList (Array와 ArrayList 차이)<br>
