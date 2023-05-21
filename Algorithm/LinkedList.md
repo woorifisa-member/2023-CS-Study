@@ -34,7 +34,7 @@
 <br>
 #### 특징 비교
 <br>
-##### ArrayList 
+#### ArrayList 
 - 중복을 허용하고 순서를 유지하며 인덱스로 원소들을 관리 (배열과 유사)
 - 배열과 다르게 배열을 추가하고 삭제하는 메서드가 존재 (크기 지정하지 않고 동적으로 값 추가, 삭제)
 - 데이터 추가시 더 큰 용량의 임시 배열을 만들어 복사
@@ -47,47 +47,47 @@
 <br>
 
 #### 어떨때 사용하면 좋을까?
-##### ArrayList
+#### ArrayList
 - 인덱스 기반 자료구조, get(int index)을 통해 무작위 접근 가능 "O(1)시간복잡도"
 - 삽입, 삭제시 배열을 임시배열에 복사하는 방식 "O(N)시간복잡도"
 <br>
 
-##### LinkedList
+#### LinkedList
 - 처음노드부터 찾고자 하는 노드까지 순차적으로 탐색. 최대 "O(N)시간복잡도"
 - 삽입, 삭제시 이전노드와 다음 노드를 참조하는 상태만 변경 "O(1)시간복잡도"
 <br>
 
-##### 결론
+#### 결론 ✔️
 - 검색 : ArrayList가 빠르다
 - 삽입, 삭제 : LinkedList가 빠르다
 <br>
 
-##### 검색, 삽입, 삭제시 LinkedList와 ArrayList의 성능 차이
+#### 검색, 삽입, 삭제시 LinkedList와 ArrayList의 성능 차이
 <div align='center'>   
     <img src="img/LinkedList_2.png" width="500px">
 </div>
 <br>
 
 ## 2. LinkedList 종류
-### 단순 연결 리스트
+### 1) 단순 연결 리스트
 <div align='center'>   
-    <img src="img/LinkedList_3.png" width="300px">
+    <img src="img/LinkedList_3.png" width="500px">
 </div>
 <br>
 - 각 노드에 한 개의 자료 공간과 한 개의 포인터 공간
 - 각 노드의 포인터는 다음 노드 가리킴
 
-### 이중 연결 리스트
+### 2) 이중 연결 리스트
 <div align='center'>   
-    <img src="img/LinkedList_4.png" width="300px">
+    <img src="img/LinkedList_4.png" width="500px">
 </div>
 <br>
 - 단순 연결 리스트 단점 보완 (단순 연결 리스트는 이전 노드로는 가지 못함)
 - 이중 연결 리스트는 앞 노드의 메모리 주소를 보관하는 포인터 prev를 만들어준 형태
 
-### 원형 연결 리스트
+### 3) 원형 연결 리스트
 <div align='center'>   
-    <img src="img/LinkedList_5.png" width="300px">
+    <img src="img/LinkedList_5.png" width="500px">
 </div>
 <br>
 - 단순 연결 리스트의 마지막 노드의 포인터가 NULL이 아닌 헤드를 가리키는 형태 (끝이 존재하지 않는다)
@@ -97,12 +97,12 @@
 
 #### 객체 생성
 
-##### LinkedList.java
+#### LinkedList.java
 
 ```java
 public class LinkedList
 ````
-##### Main.java
+#### Main.java
 
 ```java
 public class Main {
@@ -122,7 +122,7 @@ public class Main {
 - data : 노드의 값 (객체 Node의 내부 변수)
 - next : 다음 노드의 참조값 (객체 Node의 내부 변수)
 <div align='center'>   
-    <img src="img/LinkedList_6.png" width="300px">
+    <img src="img/LinkedList_6.png" width="500px">
 </div>
 
 <br>
@@ -152,7 +152,7 @@ public class LinkedList {
 
 #### 데이터 추가
 
-##### 시작에 추가
+#### 시작에 추가
 
 ```java
 public void addFirst(Object input){
@@ -169,7 +169,7 @@ public void addFirst(Object input){
 ````
 <br>
 
-##### 끝에 추가
+#### 끝에 추가
 
 ```java
 public void addLast(Object input) {
@@ -187,7 +187,7 @@ public void addLast(Object input) {
 
 <br>
 
-##### 중간에 추가
+#### 중간에 추가
 
 ```java
 Node node(int index) {
@@ -220,7 +220,7 @@ public void add(int k, Object input){
 <br>
 
 #### 데이터 삭제
-##### 처음 노드 삭제
+#### 처음 노드 삭제
 
 ```java
 public Object removeFirst() {
@@ -235,7 +235,7 @@ public Object removeFirst() {
 ````
 <br>
 
-##### 중간 노드 삭제
+#### 중간 노드 삭제
 ```java
 public Object remove(int k) {
 	if(k == 0)
@@ -263,33 +263,7 @@ public Object remove(int k) {
 ````
 <br>
 
-##### 중간 노드 삭제
-```java
-public Object remove(int k) {
-	if(k == 0)
-    	return removeFirst();
-    
-    Node temp = node(k-1); //k-1번째 node를 temp의 값으로 지정 
-    
-    Node todoDeleted = temp.next; 
-    //삭제할 노드를 todoDeleted에 기록
-    // 삭제 노드를 지금 제거하면 삭제 앞 노드와 삭제 뒤 노드를 연결할 수 없다. 
-    
-    temp.next = temp.next.next; 
-    //삭제 앞 노드의 다음 노드로 삭제 뒤 노드를 지정한다. 
-    
-    Object returnData = todoDeleted.data; 
-    //삭제된 데이터를 리턴하기 위해서 returnData에 저장한다. 
-    
-    if(todoDeleted == tail)
-    	tail = temp;
-   	
-    todoDeleted = null;
-    size--;
-    return returnData;
-}
-````
-<br>
+
 
 ## 4. 면접 예상질문
 - ArrayList와 LinkedList의 차이가 무엇인가요?
