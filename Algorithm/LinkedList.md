@@ -2,10 +2,10 @@
 <br>
 
 ## 목차
-1. LinkedList란?
-   1-1. LinkedList
-   1-2. LinkedList의 구성
-   1-3. ArrayList와 비교
+1. LinkedList란?<br>
+   1-1. LinkedList<br>
+   1-2. LinkedList의 구성<br>
+   1-3. ArrayList와 비교<br>
 2. LinkedList 종류
 3. LinkedList Java 구현
 4. 면접 예상질문
