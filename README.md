@@ -72,7 +72,7 @@
   
 - [키(Key) 정리](https://github.com/woorifisa/2023-CS-Study/blob/main/Database/Key.md)<br>
 - [SQL - JOIN](https://github.com/woorifisa/2023-CS-Study/blob/main/Database/Join.md)<br>
-- SQL Injection<br>
+- [SQL Injection](https://github.com/woorifisa-tech/2023-CS-Study/blob/main/Database/SQL%20Injection.md)<br>
 - SQL vs NoSQL<br>
 - 정규화(Normalization)<br>
 - 이상(Anomaly)<br>
