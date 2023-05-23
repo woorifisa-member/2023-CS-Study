@@ -37,7 +37,7 @@
 <summary>Computer Architecture</summary>
 <div markdown="1">
   
-- 컴퓨터 구조 기초<br>
+- [컴퓨터 구조 기초](https://github.com/woorifisa-tech/2023-CS-Study/blob/main/Computer%20Architecture/Computer%20Architecture%20Basics.md)<br>
 - 컴퓨터의 구성<br>
 - 중앙처리장치(CPU) 작동 원리<br>
 - 캐시 메모리<br>
