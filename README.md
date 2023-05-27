@@ -134,7 +134,7 @@
 <summary>Software Engineering</summary>
 <div markdown="1"> 
   
-- 클린코드 & 리팩토링 / 클린코드 & 시큐어코딩<br>
+- [클린코드 & 리팩토링 & 시큐어코딩](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Software%20Engineering/Clean%20Code%20%26%20Refactoring.md)<br>
 - TDD(Test Driven Development)<br>
 - 애자일(Agile) 정리1 / 애자일(Agile) 정리2<br>
 - 객체 지향 프로그래밍(Object-Oriented Programming)<br>
