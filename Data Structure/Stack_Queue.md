@@ -29,7 +29,7 @@
 
 ### 1.1 스택(Stack)이란?  
 * 스택이란 "쌓다"라는 의미로, 데이터를 차곡차곡 쌓아 올린 형태의 선형 자료구조  
-* 후입선출(LIFO, Last In First Out) 방식의 자료구조
+* `후입선출(LIFO, Last In First Out)` 방식의 자료구조
 
 <br />
 
@@ -177,7 +177,7 @@ class Main
 <br />
 
 ### 2.1 큐(Queue)란?  
-* 큐란 "줄을 서서 기다린다"라는 의미로, 선입선출(FIFO, First In First Out) 방식의  선형 자료구조
+* 큐란 "줄을 서서 기다린다"라는 의미로, `선입선출(FIFO, First In First Out)` 방식의  선형 자료구조
 
 <br />
 
