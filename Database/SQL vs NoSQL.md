@@ -10,7 +10,7 @@
 - 구조화된 쿼리 언어(Structured Query Language)의 약자로, 특정 유형의 데이터베이스와 상호 작용하는 데 사용하는 쿼리 언어이다.
 - RDBMS(관계형 데이터베이스 관리 시스템)에서 데이터 저장, 수정, 삭제, 검색이 가능하다.
 <div align='center'>   
-    <img src="img/SQL vs NosQL_1.png" width="600px">
+    <img src="img/SQL vs NoSQL_1.png" width="600px">
 </div>
 <br>
 
