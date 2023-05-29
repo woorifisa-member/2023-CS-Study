@@ -4,10 +4,10 @@
 
 ### 🙋 Collaborator
 
-|                                                                                            |                                                                                            |                                                                                            |                                                                                           |                                                                                            |                                                                                           |
-| :----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: |
-| <img src="https://avatars.githubusercontent.com/u/61442302?v=4" width=150px alt="김성훈"/> | <img src="https://avatars.githubusercontent.com/u/93786956?v=4" width=150px alt="김수현"/> | <img src="https://avatars.githubusercontent.com/u/61819350?v=4" width=150px alt="김승연"/> | <img src="https://avatars.githubusercontent.com/u/59864345?v=4" width=150px alt="복영빈"> | <img src="https://avatars.githubusercontent.com/u/119517146?v=4" width=150px alt="임예지"> | <img src="https://avatars.githubusercontent.com/u/72537762?v=4" width=150px alt="박지윤"> |
-|                           [김성훈](https://github.com/kimsh2948)                           |                            [김수현](https://github.com/ooutta)                             |                           [김승연](https://github.com/seungg-0)                            |                            [복영빈](https://github.com/yybeen)                            |                            [임예지](https://github.com/yj5768)                             |                         [박지윤](https://github.com/Jiyun-Parkk)                          |
+|                                                                                            |                                                                                            |                                                                                           |                                                                                            |                                                                                           |
+| :----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: |
+| <img src="https://avatars.githubusercontent.com/u/61442302?v=4" width=150px alt="김성훈"/> | <img src="https://avatars.githubusercontent.com/u/93786956?v=4" width=150px alt="김수현"/> | <img src="https://avatars.githubusercontent.com/u/59864345?v=4" width=150px alt="복영빈"> | <img src="https://avatars.githubusercontent.com/u/119517146?v=4" width=150px alt="임예지"> | <img src="https://avatars.githubusercontent.com/u/72537762?v=4" width=150px alt="박지윤"> |
+|                           [김성훈](https://github.com/kimsh2948)                           |                            [김수현](https://github.com/ooutta)                             |                            [복영빈](https://github.com/yybeen)                            |                            [임예지](https://github.com/yj5768)                             |                         [박지윤](https://github.com/Jiyun-Parkk)                          |
 
 <br>
 <br>
@@ -77,7 +77,7 @@
 - [키(Key) 정리](https://github.com/woorifisa/2023-CS-Study/blob/main/Database/Key.md)<br>
 - [SQL - JOIN](https://github.com/woorifisa/2023-CS-Study/blob/main/Database/Join.md)<br>
 - [SQL Injection](https://github.com/woorifisa-tech/2023-CS-Study/blob/main/Database/SQL%20Injection.md)<br>
-- SQL vs NoSQL<br>
+- [SQL vs NoSQL](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Database/SQL%20vs%20NoSQL.md)<br>
 - 정규화(Normalization)<br>
 - 이상(Anomaly)<br>
 - 인덱스(INDEX)<br>
