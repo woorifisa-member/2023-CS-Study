@@ -2,8 +2,9 @@
 1. SQL
 2. NoSQL
 3. 수직적(Vertical) & 수평적(Horizontal) 확장(Scaling)
-4. SQL과 NoSQL의 차이점
-5. SQL과 NoSQL을 사용하는 케이스
+4. SQL과 NoSQL을 사용하는 케이스
+5. 예상 면접 질문
+6. 참고문헌
 <br>
 <br>
 
@@ -32,7 +33,7 @@
 
 # NoSQL
 <div align='center'>   
-    <img src="img/SQL vs NoSQL_2.png" width="600px">
+    <img src="img/SQL vs NoSQL_2.png" width="400px">
 </div>
 
 - SQL(관계형 데이터베이스)과 반대되는 접근 방식을 갖는다.
@@ -41,7 +42,6 @@
 - 관계형 데이터베이스처럼 데이터를 여러 테이블에 나누어 저장되지 않고, 관련 데이터를 **동일한 Collection에 담는다.**
     - ➡️ Collection에는 필요한 모든 정보를 가진 Documents가 있으므로, 데이터 탐색 시, Join할 필요가 없어, **Join 개념이 존재하지 않는다.**
     - Join 하고 싶을 때에는 Collection을 통해 데이터를 복제하여 각 컬렉션 일부분에 속하는 데이터를 산출하도록 한다.
-- 여러 컬렉션과 문서가 변경된 경우, 
 <br>
 
 ## NoSQL 특징
@@ -70,15 +70,47 @@
 <br>
 
 
-# SQL과 NoSQL의 차이점
-<div align='center'>   
-    <img src="img/SQL vs NoSQL_5.png" width="600px">
-</div>
-
-
-
-
-
+# SQL과 NoSQL을 사용하는 케이스
 <div align='center'>   
     <img src="img/SQL vs NoSQL_3.png" width="600px">
 </div>
+
+## SQL
+- 데이터베이스의 ACID 성질을 준수해야 하는 경우
+    - ACID
+        - 데이터베이스에서 실행되는 하나의 트랜잭션(Transaction)에 의한 상태의 변화를 수행하는 과정에서, 안전성을 보장하기 위해 필요한 성질
+        - Atomicity(원자성), Consistency(일관성), Isolation(격리성), Durability(지속성)
+- 소프트웨어에서 사용되는 데이터가 구조적, 일관적인 경우
+- 관계를 맺고 있는 데이터가 자주 수정되는 애플리케이션일 경우(NoSQL에서는 여러 컬렉션을 모두 수정해줘야 한다.)
+<br>
+
+## NoSQL
+- 정확한 데이터 구조를 알 수 없거나 변경, 확장 될 수 있는 경우
+- 읽기(read)처리를 자주하지만, 데이터를 자주 수정(update)하지 않는 경우 (= 한번의 변경으로 수십 개의 문서를 업데이트 할 필요가 없는 경우)
+- 대용량 데이터를 다뤄야해서 데이터베이스를 수평적으로 확장해야 하는 경우
+- 빠르게 서비스를 구축하는 과정에서 데이터 구조를 자주 업데이트 하는 경우
+    - 스키마를 구조화 할 필요가 없어서 빠르게 개발하는 경우에 유리하다.
+    - 시장에 빠르게 프로토타입을 출시해야 하는 경우가 이에 해당한다.
+<br>
+<br>
+
+
+# 예상 면접 질문
+**Q. RDBMS(SQL)와 NoSQL의 차이에 대해 설명해주세요.**
+<br>
+A. RDBMS는 구조화된 엄격한 데이터 스키마에 따라 데이터를 테이블에 저장합니다. 따라서 나중에 스키마를 수정하기 번거롭고, Join이 많은 경우 쿼리가 복잡해집니다. 
+반면에 NoSQL은 데이터 간의 관계를 정의하지 않고, 스키마가 없기 때문에 필드의 추가나 삽입이 자유롭습니다. 또한 데이터 분산이 용이하여 대용량 데이터 처리에 적합합니다. 그러나 중복된 데이터가 있을 수 있고, 이것이 변경될 경우 모든 컬렉션에서 데이터를 수정을 해야하는 번거로움이 있습니다.
+<br>
+
+**Q. RDBMS(SQL)와 NoSQL은 어느 경우에 적합한가요?**
+<br>
+A. RDBMS는 데이터 구조가 명확하고, ACID 성질을 준수해야 하는 프로그램에 적합합니다. 
+NoSQL은 정확한 데이터 구조를 알 수 없거나, 대용량 데이터를 분산 처리 하여 다뤄야 하는 경우에 적합합니다.
+<br>
+<br>
+
+
+# 참고문헌
+- SQL vs NoSQL : https://hanamon.kr/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-sql-vs-nosql/
+- DB ACID : https://victorydntmd.tistory.com/129
+- 예상 면접 질문 : https://dev-coco.tistory.com/158
