@@ -146,8 +146,11 @@ A : 여러 가지 방법이 있지만 Proxy 객체를 써서 하곤 합니다. P
 
 - observer 패턴 사용이유 : https://blog.naver.com/dev_wise/222844625132
 
+- `느슨한 결합 예제 참고` : https://velog.io/@sktkddn777/%EA%B0%95%ED%95%9C-%EA%B2%B0%ED%95%A9%EA%B3%BC-%EB%8A%90%EC%8A%A8%ED%95%9C-%EA%B2%B0%ED%95%A9
+
 - observer 패턴의 장단점 : https://coding-factory.tistory.com/710
 
 - Vue.js 3.0에서의 observer 패턴 : https://thebook.io/080326/0026/
 
-- 면접질문 : <면접을 위한 CS 전공지식 노트> 참고                                                  
+- 면접질문 : <면접을 위한 CS 전공지식 노트> 참고                                          
+        
