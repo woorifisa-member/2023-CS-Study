@@ -115,7 +115,7 @@
 - [프로세스 vs 스레드](https://github.com/woorifisa/2023-CS-Study/blob/main/OS/Process%20vs%20Thread.md)<br>
 - [프로세스 주소 공간](https://github.com/woorifisa-member/2023-CS-Study/blob/main/OS/Process%20address%20space.md)<br>
 - 인터럽트(Interrupt)<br>
-- 시스템 콜(System Call)<br>
+- [시스템 콜(System Call)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/OS/System%20Call.md)<br>
 - PCB와 Context Switching<br>
 - IPC(Inter Process Communication)<br>
 - CPU 스케줄링<br>
