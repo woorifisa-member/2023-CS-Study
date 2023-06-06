@@ -22,7 +22,7 @@
 <br />
 
 <div align='center'>   
-    <img src="img/CPU_1.jpg" width="350px">
+    <img src="img/CPU_1.jpg" width="750px">
 </div>
 
 <br />
@@ -75,7 +75,7 @@
 <br />
 
 <div align='center'>   
-    <img src="img/CPU_1.jpg" width="350px">
+    <img src="img/CPU_2.jpg" width="350px">
 </div>
 
 <br />
