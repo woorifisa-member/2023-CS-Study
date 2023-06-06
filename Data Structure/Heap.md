@@ -21,14 +21,14 @@
 우선순위 큐 : 우선순위의 개념을 <span>큐</span>에 도입한 자료구조
 
 <div align='center'>   
-    <img src="img/Heap_1" width="600px">
+    <img src="img/Heap_1.png" width="600px">
 </div>
 
 <br />
 
 ### 1.1 종류
 <div align='center'>   
-    <img src="img/Heap_2" width="600px">
+    <img src="img/Heap_2.png" width="600px">
 </div>
 
 - `최대 힙(max heap)` : 부모 노드의 키 값이 자식 노드의 키 값보다 크거나 같은 완전 이진트리
@@ -86,7 +86,7 @@
     - ex. 루트노드의 오른쪽 노드 번호는 항상 3
 
 <div align='center'>   
-    <img src="img/Heap_3" width="600px">
+    <img src="img/Heap_3.png" width="600px">
 </div> 
 
 - 힙에서 부모 노드와 자식 노드의 관계
@@ -99,7 +99,7 @@
 ### 3.1. 힙의 삽입
 
 <div align='center'>   
-    <img src="img/Heap_4" width="600px">
+    <img src="img/Heap_4.png" width="600px">
 </div> 
 
 1. 힙에 새로운 요소가 들어오면, 일단 새로운 노드를 힙의 마지막 노드에 이어서 삽입
@@ -127,7 +127,7 @@ for (int i=heapSize; i>1; i/=2) {
 #### 3.2. 힙의 삭제
 
 <div align='center'>   
-    <img src="img/Heap_5" width="600px">
+    <img src="img/Heap_5.png" width="600px">
 </div> 
 
 1. 최대 힙에서 최댓값은 루트 노드이므로 루트 노드가 삭제
@@ -186,7 +186,7 @@ return item;
     remove: O(logn)
 
 <div align='center'>   
-    <img src="img/Heap_6" width="600px">
+    <img src="img/Heap_6.png" width="600px">
 </div> 
 
 
