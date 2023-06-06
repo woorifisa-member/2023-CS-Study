@@ -172,7 +172,7 @@ Array는 메모리적으로 각 값들이 연속적인 주소값을 가지고 �
 </div>
 </details>
 
-[참고 - Java의 sort 알고리즘] (https://sabarada.tistory.com/138)
+[참고 - Java의 sort 알고리즘](https://sabarada.tistory.com/138)
 
 [참고 - Naver d2 Tim sort](https://sabarada.tistory.com/138)
 
