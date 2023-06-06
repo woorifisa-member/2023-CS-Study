@@ -114,7 +114,7 @@
 - [운영체제란](https://github.com/woorifisa/2023-CS-Study/blob/main/OS/What%20is%20an%20OS.md)<br>
 - [프로세스 vs 스레드](https://github.com/woorifisa/2023-CS-Study/blob/main/OS/Process%20vs%20Thread.md)<br>
 - [프로세스 주소 공간](https://github.com/woorifisa-member/2023-CS-Study/blob/main/OS/Process%20address%20space.md)<br>
-- 인터럽트(Interrupt)<br>
+- [인터럽트](https://github.com/woorifisa-member/2023-CS-Study/blob/main/OS/Interrupt.md)<br>
 - [시스템 콜(System Call)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/OS/System%20Call.md)<br>
 - PCB와 Context Switching<br>
 - IPC(Inter Process Communication)<br>
@@ -135,7 +135,7 @@
 <div markdown="1"> 
   
 - [클린코드 & 리팩토링 & 시큐어코딩](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Software%20Engineering/Clean%20Code%20%26%20Refactoring.md)<br>
-- TDD(Test Driven Development)<br>
+- [TDD(Test Driven Development)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Software%20Engineering/TDD.md)<br>
 - 애자일(Agile) 정리1 / 애자일(Agile) 정리2<br>
 - 객체 지향 프로그래밍(Object-Oriented Programming)<br>
 - 함수형 프로그래밍(Fuctional Programming)<br>
