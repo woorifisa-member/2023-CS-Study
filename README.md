@@ -151,7 +151,7 @@
 <div markdown="1">
   
 - [거품 정렬(Bubble Sort)](https://github.com/woorifisa/2023-CS-Study/blob/main/Algorithm/Bubble%20sort.md) <br>
-- 선택 정렬(Selection Sort)<br>
+- [선택 정렬(Selection Sort)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Algorithm/Selection_sort.md)<br>
 - 삽입 정렬(Insertion Sort)<br>
 - 퀵 정렬(Quick Sort)<br>
 - 병합 정렬(Merge Sort)<br>
