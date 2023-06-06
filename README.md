@@ -60,7 +60,7 @@
 - [LinkedList](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Data%20Structure/LinkedList.md)<br>
 - Array & ArrayList & LinkedList<br>
 - [스택(Stack) & 큐(Queue)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Data%20Structure/Stack_Queue.md)<br>
-- 힙(Heap)<br>
+- [힙(Heap)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Data%20Structure/Heap.md)<br>
 - 트리(Tree)<br>
 - 이진탐색트리(Binary Search Tree)<br>
 - 해시(Hash)<br>
