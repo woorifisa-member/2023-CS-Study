@@ -4,10 +4,10 @@
 
 ### 🙋 Collaborator
 
-|                                                                                            |                                                                                            |                                                                                           |                                                                                            |                                                                                           |
-| :----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: |
-| <img src="https://avatars.githubusercontent.com/u/61442302?v=4" width=150px alt="김성훈"/> | <img src="https://avatars.githubusercontent.com/u/93786956?v=4" width=150px alt="김수현"/> | <img src="https://avatars.githubusercontent.com/u/59864345?v=4" width=150px alt="복영빈"> | <img src="https://avatars.githubusercontent.com/u/119517146?v=4" width=150px alt="임예지"> | <img src="https://avatars.githubusercontent.com/u/72537762?v=4" width=150px alt="박지윤"> |
-|                           [김성훈](https://github.com/kimsh2948)                           |                            [김수현](https://github.com/ooutta)                             |                            [복영빈](https://github.com/yybeen)                            |                            [임예지](https://github.com/yj5768)                             |                         [박지윤](https://github.com/Jiyun-Parkk)                          |
+|                                                                                            |                                                                                            |                                                                                           |                                                                                            |                                                                                           |                                                                                            |
+| :----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: |
+| <img src="https://avatars.githubusercontent.com/u/61442302?v=4" width=150px alt="김성훈"/> | <img src="https://avatars.githubusercontent.com/u/93786956?v=4" width=150px alt="김수현"/> | <img src="https://avatars.githubusercontent.com/u/59864345?v=4" width=150px alt="복영빈"> | <img src="https://avatars.githubusercontent.com/u/119517146?v=4" width=150px alt="임예지"> | <img src="https://avatars.githubusercontent.com/u/72537762?v=4" width=150px alt="박지윤"> | <img src="https://avatars.githubusercontent.com/u/126961013?v=4" width=150px alt="정경연"> |
+|                           [김성훈](https://github.com/kimsh2948)                           |                            [김수현](https://github.com/ooutta)                             |                            [복영빈](https://github.com/yybeen)                            |                            [임예지](https://github.com/yj5768)                             |                         [박지윤](https://github.com/Jiyun-Parkk)                          |                           [정경연](https://github.com/Cloudyee)                           |
 
 <br>
 <br>
@@ -18,7 +18,7 @@
 - 진행 방법
   - 대분류별 하나의 주제를 선택하여 개인 학습 후 Github .md 파일 작성
   - 매주 담당 주제 발표 및 피드백 (1시간~2시간)
-- 주제 선정 방식 : 매주 대분류별 로테이션으로 돌아가며 배정
+- 주제 선정 방식 : 매주 대분류별 로테이션으로 돌아가며 선택
   <br>
   <br>
 
@@ -27,7 +27,6 @@
 - 주제별 면접 예상 질문 및 답변 2개 이상씩 작성 파일 하단에 작성
 - 발표 후 인당 질문 최소 1개씩 하기
 - Issue의 To Do 완료 시, 완료 확인 comment 작성
-- 매주 Issue의 Todo 미완료 시, 다음주 발표 가장 어려운 주제로 강제 배정
   <br>
   <br>
 
