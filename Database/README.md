@@ -4,7 +4,7 @@
 - [SQL - JOIN](https://github.com/woorifisa/2023-CS-Study/blob/main/Database/Join.md)
 - [SQL Injection](https://github.com/woorifisa-tech/2023-CS-Study/blob/main/Database/SQL%20Injection.md)
 - [SQL vs NoSQL](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Database/SQL%20vs%20NoSQL.md)
-- 정규화(Normalization)
+- [정규화(Normalization)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Database/Normalization.md)
 - 이상(Anomaly)
 - 인덱스(INDEX)
 - 트랜잭션(Transaction)

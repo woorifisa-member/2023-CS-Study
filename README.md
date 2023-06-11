@@ -4,10 +4,10 @@
 
 ### 🙋 Collaborator
 
-|                                                                                            |                                                                                            |                                                                                           |                                                                                            |                                                                                           |
-| :----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: |
-| <img src="https://avatars.githubusercontent.com/u/61442302?v=4" width=150px alt="김성훈"/> | <img src="https://avatars.githubusercontent.com/u/93786956?v=4" width=150px alt="김수현"/> | <img src="https://avatars.githubusercontent.com/u/59864345?v=4" width=150px alt="복영빈"> | <img src="https://avatars.githubusercontent.com/u/119517146?v=4" width=150px alt="임예지"> | <img src="https://avatars.githubusercontent.com/u/72537762?v=4" width=150px alt="박지윤"> |
-|                           [김성훈](https://github.com/kimsh2948)                           |                            [김수현](https://github.com/ooutta)                             |                            [복영빈](https://github.com/yybeen)                            |                            [임예지](https://github.com/yj5768)                             |                         [박지윤](https://github.com/Jiyun-Parkk)                          |
+|                                                                                            |                                                                                            |                                                                                           |                                                                                            |                                                                                           |                                                                                            |
+| :----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: |
+| <img src="https://avatars.githubusercontent.com/u/61442302?v=4" width=150px alt="김성훈"/> | <img src="https://avatars.githubusercontent.com/u/93786956?v=4" width=150px alt="김수현"/> | <img src="https://avatars.githubusercontent.com/u/59864345?v=4" width=150px alt="복영빈"> | <img src="https://avatars.githubusercontent.com/u/119517146?v=4" width=150px alt="임예지"> | <img src="https://avatars.githubusercontent.com/u/72537762?v=4" width=150px alt="박지윤"> | <img src="https://avatars.githubusercontent.com/u/126961013?v=4" width=150px alt="정경연"> |
+|                           [김성훈](https://github.com/kimsh2948)                           |                            [김수현](https://github.com/ooutta)                             |                            [복영빈](https://github.com/yybeen)                            |                            [임예지](https://github.com/yj5768)                             |                         [박지윤](https://github.com/Jiyun-Parkk)                          |                           [정경연](https://github.com/Cloudyee)                            |
 
 <br>
 <br>
@@ -18,7 +18,7 @@
 - 진행 방법
   - 대분류별 하나의 주제를 선택하여 개인 학습 후 Github .md 파일 작성
   - 매주 담당 주제 발표 및 피드백 (1시간~2시간)
-- 주제 선정 방식 : 매주 대분류별 로테이션으로 돌아가며 배정
+- 주제 선정 방식 : 매주 대분류별 로테이션으로 돌아가며 선택
   <br>
   <br>
 
@@ -27,7 +27,6 @@
 - 주제별 면접 예상 질문 및 답변 2개 이상씩 작성 파일 하단에 작성
 - 발표 후 인당 질문 최소 1개씩 하기
 - Issue의 To Do 완료 시, 완료 확인 comment 작성
-- 매주 Issue의 Todo 미완료 시, 다음주 발표 가장 어려운 주제로 강제 배정
   <br>
   <br>
 
@@ -43,7 +42,7 @@
   
 - [컴퓨터 구조 기초](https://github.com/woorifisa-tech/2023-CS-Study/blob/main/Computer%20Architecture/Computer%20Architecture%20Basics.md)<br>
 - 컴퓨터의 구성<br>
-- 중앙처리장치(CPU) 작동 원리<br>
+- [중앙처리장치(CPU) 작동 원리](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Computer%20Architecture/CPU.md)<br>
 - 캐시 메모리<br>
 - 고정 소수점 & 부동 소수점<br>
 - 패리티 비트 & 해밍 코드<br>
@@ -60,7 +59,7 @@
 - [LinkedList](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Data%20Structure/LinkedList.md)<br>
 - Array & ArrayList & LinkedList<br>
 - [스택(Stack) & 큐(Queue)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Data%20Structure/Stack_Queue.md)<br>
-- 힙(Heap)<br>
+- [힙(Heap)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Data%20Structure/Heap.md)<br>
 - 트리(Tree)<br>
 - 이진탐색트리(Binary Search Tree)<br>
 - 해시(Hash)<br>
@@ -78,7 +77,7 @@
 - [SQL - JOIN](https://github.com/woorifisa/2023-CS-Study/blob/main/Database/Join.md)<br>
 - [SQL Injection](https://github.com/woorifisa-tech/2023-CS-Study/blob/main/Database/SQL%20Injection.md)<br>
 - [SQL vs NoSQL](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Database/SQL%20vs%20NoSQL.md)<br>
-- 정규화(Normalization)<br>
+- [정규화(Normalization)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Database/Normalization.md)<br>
 - 이상(Anomaly)<br>
 - 인덱스(INDEX)<br>
 - 트랜잭션(Transaction)<br>
@@ -96,7 +95,7 @@
 - [TCP 3 way handshake & 4 way handshake](https://github.com/woorifisa/2023-CS-Study/blob/main/Network/TCP%203%20way%20handshake%20%26%204%20way%20handshake.md)
   <br>
 - [TCP/IP 흐름제어 & 혼잡제어](https://github.com/woorifisa-tech/2023-CS-Study/blob/main/Network/TCP%20IP%20%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%20%26%20%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4.md)<br>
-- UDP<br>
+- [UDP](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Network/UDP.md)<br>
 - 대칭키 & 공개키<br>
 - HTTP & HTTPS<br>
 - TLS/SSL handshake<br>
@@ -114,7 +113,7 @@
 - [운영체제란](https://github.com/woorifisa/2023-CS-Study/blob/main/OS/What%20is%20an%20OS.md)<br>
 - [프로세스 vs 스레드](https://github.com/woorifisa/2023-CS-Study/blob/main/OS/Process%20vs%20Thread.md)<br>
 - [프로세스 주소 공간](https://github.com/woorifisa-member/2023-CS-Study/blob/main/OS/Process%20address%20space.md)<br>
-- 인터럽트(Interrupt)<br>
+- [인터럽트](https://github.com/woorifisa-member/2023-CS-Study/blob/main/OS/Interrupt.md)<br>
 - [시스템 콜(System Call)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/OS/System%20Call.md)<br>
 - PCB와 Context Switching<br>
 - IPC(Inter Process Communication)<br>
@@ -135,7 +134,7 @@
 <div markdown="1"> 
   
 - [클린코드 & 리팩토링 & 시큐어코딩](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Software%20Engineering/Clean%20Code%20%26%20Refactoring.md)<br>
-- TDD(Test Driven Development)<br>
+- [TDD(Test Driven Development)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Software%20Engineering/TDD.md)<br>
 - 애자일(Agile) 정리1 / 애자일(Agile) 정리2<br>
 - 객체 지향 프로그래밍(Object-Oriented Programming)<br>
 - 함수형 프로그래밍(Fuctional Programming)<br>
@@ -151,7 +150,7 @@
 <div markdown="1">
   
 - [거품 정렬(Bubble Sort)](https://github.com/woorifisa/2023-CS-Study/blob/main/Algorithm/Bubble%20sort.md) <br>
-- 선택 정렬(Selection Sort)<br>
+- [선택 정렬(Selection Sort)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Algorithm/Selection_sort.md)<br>
 - 삽입 정렬(Insertion Sort)<br>
 - 퀵 정렬(Quick Sort)<br>
 - 병합 정렬(Merge Sort)<br>

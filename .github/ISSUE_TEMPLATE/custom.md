@@ -19,6 +19,7 @@ assignees: ''
 
 - 박지윤 : 
 
+- 정경연 : 
 <br>
 
 ## 📅 스터디 진행
@@ -30,5 +31,5 @@ assignees: ''
 
 ## ✔️ To Do
 - O/O 18시 이전까지 commit convention을 지켜 자료 업로드
-- 루트 README.md 파일의 목록에 개인이 작성한 O주차 주제 링크 연결
+- 루트 README.md 파일의 목록, 폴더별 README.md에 개인이 작성한 O주차 주제 링크 연결
 - O주차 이슈에서 발표자에게 질문 및 피드백 코멘트 달기
