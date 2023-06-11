@@ -5,9 +5,9 @@
 ### 🙋 Collaborator
 
 |                                                                                            |                                                                                            |                                                                                           |                                                                                            |                                                                                           |                                                                                            |
-| :----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: |
+| :----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: |
 | <img src="https://avatars.githubusercontent.com/u/61442302?v=4" width=150px alt="김성훈"/> | <img src="https://avatars.githubusercontent.com/u/93786956?v=4" width=150px alt="김수현"/> | <img src="https://avatars.githubusercontent.com/u/59864345?v=4" width=150px alt="복영빈"> | <img src="https://avatars.githubusercontent.com/u/119517146?v=4" width=150px alt="임예지"> | <img src="https://avatars.githubusercontent.com/u/72537762?v=4" width=150px alt="박지윤"> | <img src="https://avatars.githubusercontent.com/u/126961013?v=4" width=150px alt="정경연"> |
-|                           [김성훈](https://github.com/kimsh2948)                           |                            [김수현](https://github.com/ooutta)                             |                            [복영빈](https://github.com/yybeen)                            |                            [임예지](https://github.com/yj5768)                             |                         [박지윤](https://github.com/Jiyun-Parkk)                          |                           [정경연](https://github.com/Cloudyee)                           |
+|                           [김성훈](https://github.com/kimsh2948)                           |                            [김수현](https://github.com/ooutta)                             |                            [복영빈](https://github.com/yybeen)                            |                            [임예지](https://github.com/yj5768)                             |                         [박지윤](https://github.com/Jiyun-Parkk)                          |                           [정경연](https://github.com/Cloudyee)                            |
 
 <br>
 <br>
@@ -95,7 +95,7 @@
 - [TCP 3 way handshake & 4 way handshake](https://github.com/woorifisa/2023-CS-Study/blob/main/Network/TCP%203%20way%20handshake%20%26%204%20way%20handshake.md)
   <br>
 - [TCP/IP 흐름제어 & 혼잡제어](https://github.com/woorifisa-tech/2023-CS-Study/blob/main/Network/TCP%20IP%20%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%20%26%20%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4.md)<br>
-- UDP<br>
+- [UDP](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Network/UDP.md)<br>
 - 대칭키 & 공개키<br>
 - HTTP & HTTPS<br>
 - TLS/SSL handshake<br>
