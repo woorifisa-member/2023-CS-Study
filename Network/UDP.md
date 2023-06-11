@@ -58,10 +58,10 @@ UDP는 위에서 언급한 과정들을 모두 무시하고, `패킷`을 대상 
 
 🔗 [TCP 3-way handshake](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Network/TCP%203%20way%20handshake%20%26%204%20way%20handshake.md#tcp-3-way-handshake)
 
-<center>
+<div align="center">
 <img width="672" alt="image" src="https://github.com/woorifisa-member/2023-CS-Study/assets/72537762/b2dd9a92-b9e8-42b0-9337-e3046e5f048a"/>
 <figcaption>출처: cloudflare</figcaption>
-</center>
+</div>
 
 ### UDP와 TCP 비교해보기
 
@@ -101,10 +101,10 @@ UDP는 위에서 언급한 과정들을 모두 무시하고, `패킷`을 대상 
 
 패킷 손실과 같은 것은 심각한 문제가 아니지만, UDP는 별도의 핸드셰이크가 필요하지 않기 때문에 공격자는 먼저 해당 서버의 통신 시작 권한을 얻지 않고도 대상 서버에 트래픽 폭주를 시킬 수있다.
 
-<center>
+<div align="center">
 <img width="562" alt="image" src="https://github.com/woorifisa-member/2023-CS-Study/assets/72537762/5e41dcd4-440e-430e-beef-be790eca9843" />
 <figcaption>출처: cloudflare</figcaption>
-</center>
+</div>
 
 UDP 폭주 공격은 많은 개수의 UDP 데이터그램을 대상 컴퓨터의 임의 포트로 보낸다. 그에 따라 대상이 똑같이 많은 개수의 ICMP 패킷으로 응답하게 되며, 이는 해당 포트에 연결할 수 없음을 나타낸다.
 
