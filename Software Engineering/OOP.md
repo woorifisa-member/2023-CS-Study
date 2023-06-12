@@ -215,7 +215,7 @@ public class FriendTest {
 ### 2. OCP ( Open Close Principle ) : 개방-폐쇄 원칙
 
 <div align='center'>   
-    <img src="image/OOP_4.png" width="600px">
+    <img src="image/OOP_4.PNG" width="600px">
 </div>
 
 - 확장에는 열려 있어야 하고, 변경(수정)에는 닫혀 있어야 한다.
@@ -231,7 +231,7 @@ public class FriendTest {
 ### 4. ISP (Interface Segregation Principle ) : 인터페이스 분리 원칙
 
 <div align='center'>   
-    <img src="image/OOP_5.png" width="600px">
+    <img src="image/OOP_5.PNG" width="600px">
 </div>
 
 - 각 행위에 대한 인터페이스는 각각 사용에 맞게끔 서로 분리되어야 한다.
@@ -242,7 +242,7 @@ public class FriendTest {
 ### 5. DIP ( Dependency Inversion Principle ) : 의존 역전 원칙
 
 <div align='center'>   
-    <img src="image/OOP_6.png" width="600px">
+    <img src="image/OOP_6.PNG" width="600px">
 </div>
 
 - Class를 참조해서 사용해야하는 상황이 생긴다면, 그 Class를 직접 참조하는 것이 아니라 그 <strong>대상의 상위요소(추상클래스 or 인터페이스)로 참조하라는 원칙</strong> 
