@@ -57,6 +57,8 @@ public class Computer {
 }
 ```
 
+<br />
+
 ## 2. 스트래티지 패턴이란
 * 전략을 쉽게 바꾸도록 해주는 디자인 패턴
 * 행위 패턴의 하나로, 행위를 클래스로 캡슐화하여 동적으로 행위를 자유롭게 바꿀 수 있게 해주는 패턴
@@ -89,6 +91,8 @@ public class Computer {
     * 스트래티지 패턴을 이용하는 역할을 수행
     * 필요에 따라 동적으로 구체적인 전략을 바꿀 수 있도록 하기 위해 setter 집약관계 메서드를 제공
 
+<br />
+
 ## 3. 예시
 ### __로봇 만들기__
 
@@ -98,7 +102,7 @@ public class Computer {
 
 <br />
 
-__<공격방법에 대한 전략 구현>__
+### __<공격방법에 대한 전략 구현>__
 AttackStrategy.class
 ```JAVA
 // 공격방법에 대한 Strategy
@@ -127,7 +131,7 @@ public class PunchStrategy implements AttackStrategy {
 
 <br />
 
-__<이동방법에 대한 전략을 구현>__
+### __<이동방법에 대한 전략을 구현>__
 MovingStrategy.class
 ```JAVA
 // 이동방법에 대한 Strategy
@@ -157,7 +161,7 @@ public class WalkingStrategy implements MovingStrategy {
 
 위와 같이 각 전략들을 캡슐화하여 차후추가 및 변경이 발생하여도 Robot에 대한 변경이 발생하지 않는다.
 
-__<Robot 클래스 구현>__
+### __<Robot 클래스 구현>__
 Robot.class
 ```JAVA
 // 위 Strategy들에 대한 Context
@@ -181,7 +185,7 @@ public abstract class Robot {
 
 <br />
 
-__<Robot 서브 클래스>__
+### __<Robot 서브 클래스>__
 
 TaekwonV.class
 ```JAVA
@@ -196,7 +200,9 @@ public class Atom extends Robot {
 }
 ```
 
-__<Main 클래스>__
+<br />
+
+### __<Main 클래스>__
 
 Main.class
 ```JAVA
@@ -222,7 +228,9 @@ Main.class
     }
 ```
 
-__<실행결과>__
+<br />
+
+### __<실행결과>__
 ```JAVA
 >>>My name is TaekwonV
 >>>I can only walk.
@@ -232,6 +240,8 @@ __<실행결과>__
 >>>I can fly.
 >>>I have strong punch.
 ```
+
+<br />
 
 ## 4. 장단점
 * 장점
