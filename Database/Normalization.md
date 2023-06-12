@@ -11,6 +11,8 @@
     - 2차 정규형
     - 3차 정규형
     - 보이스-코드 정규형
+4. 예상 면접 질문
+
 <br>
 <br>
 
@@ -149,7 +151,7 @@
 > (관계형 데이터 모델의 정의를 따르는 모든 테이블은 1차 정규형을 만족한다.)
 
 <div align='center'>   
-    <img src="img/normalization_5.png" width="600px">
+    <img src="img/normalization_5.png" width="400px">
 </div>
 <br>
 
@@ -167,7 +169,7 @@
 
 #### 문제 발생 원인
 <div align='center'>   
-    <img src="img/normalization_6.png" width="600px">
+    <img src="img/normalization_6.png" width="400px">
 </div>
 <br>
 
@@ -192,13 +194,13 @@
 <br>
 
 <div align='center'>   
-    <img src="img/normalization_7.png" width="600px">
+    <img src="img/normalization_7.png" width="400px">
 </div>
 <br>
 
 - 함수적 종속이 그대로 보존된다.
 <div align='center'>   
-    <img src="img/normalization_8.png" width="600px">
+    <img src="img/normalization_8.png" width="400px">
 </div>
 <br>
 
@@ -237,19 +239,19 @@
 <br>
 
 <div align='center'>   
-    <img src="img/normalization_9.png" width="600px">
+    <img src="img/normalization_9.png" width="400px">
 </div>
 <br>
 
 <div align='center'>   
-    <img src="img/normalization_10.png" width="600px">
+    <img src="img/normalization_10.png" width="400px">
 </div>
 <br>
 
 
 ### 문제점
 <div align='center'>   
-    <img src="img/normalization_11.png" width="600px">
+    <img src="img/normalization_11.png" width="300px">
 </div>
 <br>
 
@@ -265,10 +267,35 @@
 <br>
 
 #### 문제 발생 원인
-> 키에 포함되는 필드 집합 A(title)와 키에 포함되지 않은 필드 집합 X(prof_name)에 대하여 X->A라는 함수적 종속이 존재할 경우, `데이터 중복 발생`
+> 키에 포함되는 필드 집합 A(title)와 키에 포함되지 않은 필드 집합 X(prof_name)에 대하여 X -> A라는 함수적 종속이 존재할 경우, `데이터 중복 발생`
 <br>
 
 - 키가 아닌 prof_name이 title을 결정하는 'prof_name -> title'이 성립한다.
 <br>
+<br>
 
-#### 해결 방안
+## 보이스-코드 정규형
+### 개념
+> 테이블 R에 존재하는 모든 함수적 종속에서 결정자 X가 후보키이다.
+<br>
+
+<div align='center'>   
+    <img src="img/normalization_12.png" width="400px">
+</div>
+<br>
+
+<div align='center'>   
+    <img src="img/normalization_13.png" width="400px">
+</div>
+<br>
+
+### 문제점
+- 함수적 종속이 보존되지 않는다.
+- 분해 전 보존되었던 '(stu_id, title) -> prof_name'이 유지되지 않는다.
+
+<br>
+<br>
+
+# 예상 면접 질문
+Q. 정규화와 역정규화에 대해 설명해주세요. <br>
+A. 정규화란 무결성을 유지하기 위해 데이터를 구조화하는 작업입니다. 대표적으로 제 1, 2, 3형이 있으며 각 유형은 ~ 입니다. 그러나 정규화를 거치면 릴레이션 간의 연산(JOIN 연산)이 많아지는데, 이로인해 성능이 저하될 우려가 있습니다. 이때 역정규화를 고려할 수 있습니다. 역정규화란 데이터베이스의 비용을 최소화하기 위해 중복을 허용하며 엔티티를 다시 통합하거나 분할하는 과정입니다. 
