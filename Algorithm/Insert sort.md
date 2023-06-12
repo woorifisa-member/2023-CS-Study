@@ -143,6 +143,25 @@ void insertionSort(int[] arr)
     2) 이전 위치(index)를 가리키는 prev가 음수가 되지 않고, 이전 위치(index)의 값이 '1'번에서 선택한 값보다 크다면, 서로 값을 교환해 주고 prev를 더 이전 위치(index)를 가리키도록 한다.
     3) '2'번에서 반복문이 끝나고 난 뒤, prev에는 현재 temp 값보다 작은 값들 중 제일 큰 값의 위치(index)를 가리키게 된다. 따라서, (prev+1)에 temp 값을 삽입해 준다.
 
+### ⭐ Java 코드2
+```
+void bubbleSort(int[] arr) {
+    int temp = 0;
+	for(int i = 0; i < arr.length; i++) {       // 1.
+		for(int j= 1 ; j < arr.length-i; j++) { // 2.
+			if(arr[j-1] > arr[j]) {             // 3.
+                		// swap(arr[j-1], arr[j])
+				temp = arr[j-1];
+				arr[j-1] = arr[j];
+				arr[j] = temp;
+			}
+		}
+	}
+	System.out.println(Arrays.toString(arr));
+}
+```
+또 다른 자바 코드 예시입니다!
+
 ### ⭐ python
 ```
 array = [7,5,9,0,3,1,6,2,4,8]
