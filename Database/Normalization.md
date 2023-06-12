@@ -4,7 +4,7 @@
     - 삽입 이상
     - 삭제 이상
     - 수정 이상
-    - 해결안방안
+    - 해결 방안
 2. 정규화란?
 3. 정규형
     - 1차 정규형
@@ -134,7 +134,7 @@
 - 1차 정규형(1NF : first normal form)
 - 2차 정규형(2NF : second normal form)
 - 3차 정규형(3NF : third normal form)
-- 보이스-코드 정규형(BCNF : Boyce=codd normal form)
+- 보이스-코드 정규형(BCNF : Boyce-codd normal form)
 - 4차 정규형(4NF : forth normal form)
 - 5차 정규형(5NF : fifth normal form)
 <br>
@@ -147,12 +147,15 @@
 # 정규형
 ## 1차 정규형
 ### 개념
-> 테이블 R에 속한 모든 도메인이 `원자값`으로만 구성되어 있다.
+> 테이블 R에 속한 모든 도메인이 `원자값`으로만 구성되어 있다. <br>
 > (관계형 데이터 모델의 정의를 따르는 모든 테이블은 1차 정규형을 만족한다.)
 
 <div align='center'>   
     <img src="img/normalization_5.png" width="400px">
 </div>
+<br>
+
+- 기본키 : (stu_id, title)
 <br>
 
 - (stu_id, title) -> grade
@@ -162,7 +165,7 @@
 <br>
 
 ### 문제점
-- 삽입 이상 : 학번이 '1234567'인 학생이 '전자공학'에 소속된다는 사실을 테이블에 삽입하려면 최소한 이 학생이 하나의 과목을 수강해야만 가능하다.
+- 삽입 이상 : 학번이 '1234567'인 학생이 '전자공학과'에 소속된다는 사실을 테이블에 삽입하려면 최소한 이 학생이 하나의 과목을 수강해야만 가능하다.
 - 삭제 이상 : stu_id가 '1292301'인 학생이 '자료구조'를 수강한다는 사실을 삭제하면 이 학생이 '산업공학과'에 소속된다는 정보까지 동시에 삭제된다.
 - 수정 이상 : 학번이 '1292001'인 학생의 소속이 '컴퓨터공학과'에서 '산업공학과'로 변경하면 모든 해당 레코드를 변경해야 한다.
 <br>
@@ -177,7 +180,6 @@
 > 키가 아닌 필드(A)가 키의 일부인 필드(X)에 종속된다.
 
 - register 테이블
-    - 기본키 : (stu_id, title)
     - dept_name 필드는 stu_id에 함수적으로 종속된다.
         => stu_id 필드는 dept_name을 결정한다.
     - stu_id가 동일한 레코드에 대해 dept_name이 중복해서 나타난다.
@@ -285,7 +287,7 @@
 <br>
 
 <div align='center'>   
-    <img src="img/normalization_13.png" width="400px">
+    <img src="img/normalization_13.png" width="600px">
 </div>
 <br>
 
