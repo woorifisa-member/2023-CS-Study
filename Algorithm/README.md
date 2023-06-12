@@ -2,7 +2,7 @@
 
 - [거품 정렬(Bubble Sort)](https://github.com/woorifisa/2023-CS-Study/blob/main/Algorithm/Bubble%20sort.md)
 - [선택 정렬(Selection Sort)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Algorithm/Selection_sort.md))
-- 삽입 정렬(Insertion Sort)
+- [삽입 정렬(Insertion Sort)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Algorithm/Insert%20sort.md)
 - 퀵 정렬(Quick Sort)
 - 병합 정렬(Merge Sort)
 - 힙 정렬(Heap Sort)
