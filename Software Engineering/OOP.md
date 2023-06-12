@@ -5,7 +5,7 @@
 2. 특징
 3. 5가지 설계원칙(SOLID)
 4. 장단점
-5. 면접질문 & 코테 예시
+5. 면접질문
 6. 참고자료
 
 <br />
@@ -99,7 +99,7 @@ java에서 상속방법
 데이터와 코드의 형태를 외부로부터 알 수 없게 하고, 데이터 속성과 데이터를 처리하는 메소드를 하나의 캡슐(Class)로 형태로 만드는 것
 
 <div align='center'>   
-    <img src="img/OOP_3.png" width="600px">
+    <img src="image/OOP_3.png" width="600px">
 </div>
 
 
@@ -156,7 +156,7 @@ public class Car implements Vehicle { // 이동수단을 구체화한 자동차 
 
 - 상위 클래스를 `참조변수의 타입`으로 지정
 
-> ex. 오버라이드 예시
+> ex. 참조변수 타입 지정 예시
 ```java
 
 // vehicle 인터페이스
@@ -202,29 +202,51 @@ public class FriendTest {
 
 ## 3. OOP의 5가지 설계원칙(SOLID)
 
-1. SRP ( Single Responsibility Principle ) : 단일 책임 원칙
+좋은 설계란 시스템에 새로운 요구사항이나 변경사항이 있을 때, 영향을 받는 범위가 적은 구조를 말한다. 그래서 시스템에 예상하지 못한 변경사항이 발생하더라도, 유연하게 대처하고 이후에 확장성이 있는 시스템 구조를 만들 수 있다.
 
-- 클래스는 단 하나의 책임(목적)을 가지고, 그에 대한 책임을 져야 한다.
+즉, SOLID 객체 지향 원칙을 적용하면 코드를 확장하고 유지 보수 관리하기가 더 쉬워지며, 불필요한 복잡성을 제거해 리팩토링에 소요되는 시간을 줄임으로써 프로젝트 개발의 생산성을 높일 수 있다.
 
-2. OCP ( Open Close Principle ) : 개방-폐쇄 원칙
 
-- 확장에는 열려 있어야 하고  변경에는 닫혀 있어야 한다.
+### 1. SRP ( Single Responsibility Principle ) : 단일 책임 원칙
+
+- 클래스는 단 하나의 책임을 가지고(기능 담당), 그에 대한 책임을 져야 한다.<br>
+-> <strong>어떤 클래스가 변경되더라도 파급 효과가 적을 때</strong> 이것을 단일 책임 원칙을 잘 따른 것이라고 표현
+
+### 2. OCP ( Open Close Principle ) : 개방-폐쇄 원칙
+
+<div align='center'>   
+    <img src="image/OOP_4.png" width="600px">
+</div>
+
+- 확장에는 열려 있어야 하고, 변경(수정)에는 닫혀 있어야 한다.
+    - [ 확장에 열려있다 ] : 새로운 변경 사항이 발생했을 때 유연하게 코드를 추가함으로써 큰 힘을 들이지 않고 애플리케이션의 기능을 확장할 수 있음
+    - [ 변경에 닫혀있다 ] - 새로운 변경 사항이 발생했을 때 객체를 직접적으로 수정을 제한함. 
 - 즉, 클래스를 수정해야 한다면 그 클래스를 상속(확장)하여 수정한다.
 
-3. LSP ( Liskov Substitution Principle ) : 리스 코프 치환 원칙
+### 3. LSP ( Liskov Substitution Principle ) : 리스 코프 치환 원칙
 
 - 상위 타입의 객체를 하위 타입의 객체로 치환해도 상위 타입을 사용하는 프로그램은 정상적으로 동작해야 한다.
 - 즉, 자식 클래스를 사용 중일 때, 거기에 부모 클래스로 치환하여도 문제가 없어야 함.
 
-4. ISP (Interface Segregation Principle ) : 인터페이스 분리 원칙
+### 4. ISP (Interface Segregation Principle ) : 인터페이스 분리 원칙
 
-- 각 행위에 대한 인터페이스는 서로 분리되어야 한다.
-ex. 핸드폰으로 전화를 하는데 핸드폰 카메라가 방해가 되면 안 된다는 뜻
+<div align='center'>   
+    <img src="image/OOP_5.png" width="600px">
+</div>
 
-5. DIP ( Dependency Inversion Principle ) : 의존 역전 원칙
+- 각 행위에 대한 인터페이스는 각각 사용에 맞게끔 서로 분리되어야 한다.
+    - ISP원칙 : <strong>인터페이스의 단일 책임 강조</strong>
+- 클라이언트를 기준으로 인터페이스를 분리함으로써, <strong>클라이언트의 목적과 용도에 적합한 인터페이스만을 제공하는 것이 목표</strong>
 
-- 상위 클래스가 하위 클래스에 의존하면 안 된다는 법칙.
-- 즉, 기본적인 공통되는 속성을 하위 클래스에 의존하면 안 된다.
+
+### 5. DIP ( Dependency Inversion Principle ) : 의존 역전 원칙
+
+<div align='center'>   
+    <img src="image/OOP_6.png" width="600px">
+</div>
+
+- Class를 참조해서 사용해야하는 상황이 생긴다면, 그 Class를 직접 참조하는 것이 아니라 그 <strong>대상의 상위요소(추상클래스 or 인터페이스)로 참조하라는 원칙</strong> 
+- 각 클래스간의 결합도를 낮출 수 있다.
 
 
 <br />
@@ -270,6 +292,9 @@ Q2. 객체지향 언어의 장단점에 대해 설명해 보세요.
 - + 캡슐화를 이용할 때 getter/setter 사용에 대한 오해 : https://songkg7.github.io/posts/getter-and-setter/
 
 - 객체지향 프로그래밍 다형성 특성 보충 : https://cwhitestudy.tistory.com/27
+
+- OOP의 5가지 설계원칙 : https://backendcode.tistory.com/160
+- OOP의 5가지 설계원칙 보충 : https://inpa.tistory.com/entry/OOP-%F0%9F%92%A0-%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%EC%84%A4%EA%B3%84%EC%9D%98-5%EA%B0%80%EC%A7%80-%EC%9B%90%EC%B9%99-SOLID#recentEntries
 
 - 객체지향 프로그래밍 장단점 정리 : https://www.codestates.com/blog/content/%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%ED%8A%B9%EC%A7%95
 
