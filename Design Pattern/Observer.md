@@ -142,15 +142,15 @@ A : 여러 가지 방법이 있지만 Proxy 객체를 써서 하곤 합니다. P
 <br />
 
 ## 6. 참고 자료
-- 유튜버 예시 자료 참고 : https://velog.io/@hanna2100/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-2.-%EC%98%B5%EC%A0%80%EB%B2%84-%ED%8C%A8%ED%84%B4-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%98%88%EC%A0%9C-observer-pattern
+- [유튜버 예시 자료 참고](https://velog.io/@hanna2100/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-2.-%EC%98%B5%EC%A0%80%EB%B2%84-%ED%8C%A8%ED%84%B4-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%98%88%EC%A0%9C-observer-pattern)
 
-- observer 패턴 사용이유 : https://blog.naver.com/dev_wise/222844625132
+- [observer 패턴 사용이유](https://blog.naver.com/dev_wise/222844625132) 
 
-- `느슨한 결합 예제 참고` : https://velog.io/@sktkddn777/%EA%B0%95%ED%95%9C-%EA%B2%B0%ED%95%A9%EA%B3%BC-%EB%8A%90%EC%8A%A8%ED%95%9C-%EA%B2%B0%ED%95%A9
+- [`느슨한 결합 예제 참고`](https://velog.io/@sktkddn777/%EA%B0%95%ED%95%9C-%EA%B2%B0%ED%95%A9%EA%B3%BC-%EB%8A%90%EC%8A%A8%ED%95%9C-%EA%B2%B0%ED%95%A9
+) 
+- [observer 패턴의 장단점](https://coding-factory.tistory.com/710) 
 
-- observer 패턴의 장단점 : https://coding-factory.tistory.com/710
-
-- Vue.js 3.0에서의 observer 패턴 : https://thebook.io/080326/0026/
+- [ Vue.js 3.0에서의 observer 패턴](https://thebook.io/080326/0026/) 
 
 - 면접질문 : <면접을 위한 CS 전공지식 노트> 참고                                          
         
