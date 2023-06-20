@@ -294,18 +294,18 @@ class Solution {
 
 ## 6. 참고 자료
 
-- 힙의 특징 및 종류 : https://gamedevlog.tistory.com/37
+- [힙의 특징 및 종류](https://gamedevlog.tistory.com/37)
 
-- 힙(Heap)의 활용예시 : https://velog.io/@yanghl98/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-Heap%ED%9E%99-%EA%B0%9C%EB%85%90-%EC%A2%85%EB%A5%98-%ED%99%9C%EC%9A%A9-%EC%98%88%EC%8B%9C-%EA%B5%AC%ED%98%84
+- [힙(Heap)의 활용예시](https://velog.io/@yanghl98/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-Heap%ED%9E%99-%EA%B0%9C%EB%85%90-%EC%A2%85%EB%A5%98-%ED%99%9C%EC%9A%A9-%EC%98%88%EC%8B%9C-%EA%B5%AC%ED%98%84)
 
-- 힙(Heap)의 구현 : https://gmlwjd9405.github.io/2018/05/10/data-structure-heap.html
-- 좀 더 자세한 참고자료 : https://sleepybird.tistory.com/139
+- [힙(Heap)의 구현](https://gmlwjd9405.github.io/2018/05/10/data-structure-heap.html)  
+- [좀 더 자세한 참고자료](https://sleepybird.tistory.com/139) 
 
-- 힙(Heap)의 장단점 : https://velog.io/@tonic523/%ED%9E%99-%EC%98%81%EC%97%AD-vs-%EC%8A%A4%ED%83%9D-%EC%98%81%EC%97%AD
+- [힙(Heap)의 장단점](https://velog.io/@tonic523/%ED%9E%99-%EC%98%81%EC%97%AD-vs-%EC%8A%A4%ED%83%9D-%EC%98%81%EC%97%AD) : 
 
-- 면접 1,2번 질문 : https://dev-coco.tistory.com/159
+- [면접 1,2번 질문](https://dev-coco.tistory.com/159)
 
-- 면접 3번 질문 : https://okky.kr/articles/673648
+- [면접 3번 질문](https://okky.kr/articles/673648)  
 
-- 코테 질문 : 프로그래머스 https://school.programmers.co.kr/learn/courses/30/lessons/42626
-- 코테 풀이 : https://velog.io/@mongu_93/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%9E%99Heap-%EB%8D%94-%EB%A7%B5%EA%B2%8C-JAVA
+- [코테 질문 : 프로그래머스 ](https://school.programmers.co.kr/learn/courses/30/lessons/42626)
+- [코테 풀이 ](https://velog.io/@mongu_93/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%9E%99Heap-%EB%8D%94-%EB%A7%B5%EA%B2%8C-JAVA)https://velog.io/@mongu_93/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%9E%99Heap-%EB%8D%94-%EB%A7%B5%EA%B2%8C-JAVA)
