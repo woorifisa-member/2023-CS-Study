@@ -111,6 +111,6 @@ NoSQL은 정확한 데이터 구조를 알 수 없거나, 대용량 데이터를
 
 
 # 참고문헌
-- SQL vs NoSQL : https://hanamon.kr/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-sql-vs-nosql/
-- DB ACID : https://victorydntmd.tistory.com/129
-- 예상 면접 질문 : https://dev-coco.tistory.com/158
+- [SQL vs NoSQL](https://hanamon.kr/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-sql-vs-nosql/)
+- [DB ACID](https://victorydntmd.tistory.com/129)
+- [예상 면접 질문](https://dev-coco.tistory.com/158)
