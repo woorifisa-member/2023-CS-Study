@@ -7,4 +7,4 @@
 - 함수형 프로그래밍(Fuctional Programming)
 - 데브옵스(DevOps)
 - 서드 파티(3rd party)란?
-- 마이크로서비스 아키텍처(MSA)
+- [마이크로서비스 아키텍처(MSA)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Software%20Engineering/MSA.md)
