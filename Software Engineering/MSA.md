@@ -8,12 +8,12 @@
 <br>
 
 <div align='center'>   
-    <img src="img/msa_1.png" width="600px">
+    <img src="image/msa_1.png" width="600px">
 </div>
 
 # Monolithic
 <div align='center'>   
-    <img src="img/msa_2.png" width="600px">
+    <img src="image/msa_2.png" width="600px">
 </div>
 
 ## 개념
@@ -41,7 +41,7 @@
 
 # MSA (Micro Service Architecture)
 <div align='center'>   
-    <img src="img/msa_3.png" width="600px">
+    <img src="image/msa_3.png" width="600px">
 </div>
 
 ## 개념
