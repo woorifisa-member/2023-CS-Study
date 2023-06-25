@@ -256,17 +256,17 @@ SDET는 테스트 전문가,  개발의 시작부터 테스트 방안을 설계�
 <br>
 
 ### 참고자료
-[ 코트 스테이츠 - 데브옵스의 개념, 업무 ]( 'https://www.codestates.com/blog/content/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0' )
+[ 코트 스테이츠 - 데브옵스의 개념, 업무 ](https://www.codestates.com/blog/content/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
 
-[ Red Hat - DevOps의 개념, (다루진 않았지만)Linux, 쿠버네틱스 활용과 자사 홍보 ]( 'https://www.redhat.com/ko/topics/devops' )
+[ Red Hat - DevOps의 개념, (다루진 않았지만)Linux, 쿠버네틱스 활용과 자사 홍보 ](https://www.redhat.com/ko/topics/devops)
 
-[ AWS - DevOps의 개념, 작동방식, 방식 ]( 'https://aws.amazon.com/ko/devops/what-is-devops/' )
+[ AWS - DevOps의 개념, 작동방식, 방식 ](https://aws.amazon.com/ko/devops/what-is-devops/)
 
-[ 위키백과 - 데브옵스의 정의, 목적 ]( 'https://ko.wikipedia.org/wiki/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4' )
+[ 위키백과 - 데브옵스의 정의, 목적 ](https://ko.wikipedia.org/wiki/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4)
 
-[ Unity - 애자일과 데브옵스 ]( 'https://unity.com/kr/solutions/agile-vs-devops' )
+[ Unity - 애자일과 데브옵스 ](https://unity.com/kr/solutions/agile-vs-devops)
 
 
-[ 애자일과 데브옵스 ]( 'https://engineering-skcc.github.io/devops/DevOps1-%EC%95%A0%EC%9E%90%EC%9D%BC%EA%B3%BC%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4/' )
+[ 애자일과 데브옵스 ](https://engineering-skcc.github.io/devops/DevOps1-%EC%95%A0%EC%9E%90%EC%9D%BC%EA%B3%BC%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4/)
 
-[ 데브옵스 사례 ]( 'https://happycloud-lee.tistory.com/45' )
+[ 데브옵스 사례 ](https://happycloud-lee.tistory.com/45)
