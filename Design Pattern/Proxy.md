@@ -123,6 +123,13 @@ public class ProxyServer implements Server{
 <br/>
 
 ### 프록시 미사용/사용 테스트
+<div align='center'>   
+    <img src="img/Proxy_4.png" width="600px">
+</div> 
+<br/>
+<div align='center'>   
+    <img src="img/Proxy_1.png" width="600px">
+</div> 
 
 ```java
 public class ProxyPatternTest {
