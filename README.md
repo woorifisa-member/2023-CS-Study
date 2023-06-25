@@ -60,7 +60,7 @@
 - Array & ArrayList & LinkedList<br>
 - [스택(Stack) & 큐(Queue)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Data%20Structure/Stack_Queue.md)<br>
 - [힙(Heap)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Data%20Structure/Heap.md)<br>
-- 트리(Tree)<br>
+- [트리(Tree)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Data%20Structure/Tree.md)<br>
 - 이진탐색트리(Binary Search Tree)<br>
 - 해시(Hash)<br>
 - 트라이(Trie)<br>
@@ -140,7 +140,7 @@
 - 함수형 프로그래밍(Fuctional Programming)<br>
 - 데브옵스(DevOps)<br>
 - 서드 파티(3rd party)란?<br>
-- 마이크로서비스 아키텍처(MSA)<br>
+- [마이크로서비스 아키텍처(MSA)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Software%20Engineering/MSA.md)<br>
 </div>
 </details>
  <br>

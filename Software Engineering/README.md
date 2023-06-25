@@ -5,6 +5,6 @@
 - 애자일(Agile) 정리1 / 애자일(Agile) 정리2
 - [객체 지향 프로그래밍(Object-Oriented Programming)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Software%20Engineering/OOP.md)
 - 함수형 프로그래밍(Fuctional Programming)
-- 데브옵스(DevOps)
+- [데브옵스(DevOps)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Software%20Engineering/DevOps.md)
 - 서드 파티(3rd party)란?
-- 마이크로서비스 아키텍처(MSA)
+- [마이크로서비스 아키텍처(MSA)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Software%20Engineering/MSA.md)

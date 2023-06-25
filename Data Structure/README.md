@@ -5,7 +5,7 @@
 - Array & ArrayList & LinkedList
 - [스택(Stack) & 큐(Queue)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Data%20Structure/Stack_Queue.md)
 - [힙(Heap)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Data%20Structure/Heap.md)
-- 트리(Tree)
+- [트리(Tree)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Data%20Structure/Tree.md)
 - 이진탐색트리(Binary Search Tree)
 - 해시(Hash)
 - 트라이(Trie)
