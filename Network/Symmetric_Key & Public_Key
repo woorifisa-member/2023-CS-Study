@@ -48,6 +48,7 @@ SSL 보안계층이 전송계층에 적용됨. HTTPS는 SSL위에 HTTP를 얹어
 <div align='center'>   
     <img src="img/Symmetric_Key & Public_Key_3.png" width="600px">
 </div>
+
 1. 기관으로부터 검증된 사이트만 사용을 허가하기에, 안정성과 관련해 사용자들에게 신뢰감 부여
 
 2. SEO 평가에 https 적용 여부가 중요한 순위요소 중 하나
