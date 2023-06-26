@@ -78,7 +78,7 @@
 - [SQL Injection](https://github.com/woorifisa-tech/2023-CS-Study/blob/main/Database/SQL%20Injection.md)<br>
 - [SQL vs NoSQL](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Database/SQL%20vs%20NoSQL.md)<br>
 - [정규화(Normalization)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Database/Normalization.md)<br>
-- 이상(Anomaly)<br>
+- [이상(Anomaly)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Database/Anomaly.md)<br>
 - 인덱스(INDEX)<br>
 - 트랜잭션(Transaction)<br>
 - 트랜잭션 격리 수준(Transaction Isolation Level)<br>
