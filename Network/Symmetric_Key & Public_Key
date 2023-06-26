@@ -16,7 +16,7 @@
 **HTTP(Hyper Text Transfer Protocol)** : WWW(웹) 상에서 서버와 클라이언트(사용자) 간에 html 같은 웹 문서를 통해 정보를 주고받는 프로토콜(통신 규약)을 의미
 
 <div align='center'>   
-    <img src="image/Symmetric_Key & Public_Key_1.png" width="600px">
+    <img src="img/Symmetric_Key & Public_Key_1.png" width="600px">
 </div>
 
  HTTP 통신을 하기위해서는 OSI 계층에서 TCP 기반인 4계층에서 3-way-handshake로 연결과정을 거치고 7계층에서 HTTP 기반으로 데이터 전송을 하고 다시 4계층에서 4-way-handshake로 연결을 끊는 과정을 거쳐야 한다
@@ -72,7 +72,7 @@ SSL 보안계층이 전송계층에 적용됨. HTTPS는 SSL위에 HTTP를 얹어
 복호화 : 암호문을 다시 평문으로 복원하는 과정
 
 <div align='center'>   
-    <img src="img/Symmetric_Key & Public_Key_5.png" width="600px">
+    <img src="img/Symmetric_Key & Public_Key_5.jpg" width="600px">
 </div>
 
 `예시`
