@@ -4,7 +4,7 @@
 ## 목차
 1. 프록시 개념
 2. 프록시 패턴
-3. 활용 예시
+3. 프록시 패턴 종류
 4. 구현
 5. 문제점
 
@@ -77,6 +77,7 @@ public class Client {
 
 <br/>
 <br/>
+<br/>
 
 
 <div align='center'>   
@@ -123,6 +124,13 @@ public class ProxyServer implements Server{
 <br/>
 
 ### 프록시 미사용/사용 테스트
+<div align='center'>   
+    <img src="img/Proxy_4.png" width="600px">
+</div> 
+<br/>
+<div align='center'>   
+    <img src="img/Proxy_1.png" width="600px">
+</div> 
 
 ```java
 public class ProxyPatternTest {

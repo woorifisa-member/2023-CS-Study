@@ -4,10 +4,10 @@
 
 ### 🙋 Collaborator
 
-|                                                                                            |                                                                                            |                                                                                           |                                                                                            |                                                                                           |                                                                                            |                                                                                            |
-| :----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: |
-| <img src="https://avatars.githubusercontent.com/u/61442302?v=4" width=150px alt="김성훈"/> | <img src="https://avatars.githubusercontent.com/u/93786956?v=4" width=150px alt="김수현"/> | <img src="https://avatars.githubusercontent.com/u/59864345?v=4" width=150px alt="복영빈"> | <img src="https://avatars.githubusercontent.com/u/119517146?v=4" width=150px alt="임예지"> | <img src="https://avatars.githubusercontent.com/u/72537762?v=4" width=150px alt="박지윤"> | <img src="https://avatars.githubusercontent.com/u/126961013?v=4" width=150px alt="정경연"> | <img src="https://avatars.githubusercontent.com/u/122027452?v=4" width=150px alt="박진영"> |
-|                           [김성훈](https://github.com/kimsh2948)                           |                            [김수현](https://github.com/ooutta)                             |                            [복영빈](https://github.com/yybeen)                            |                            [임예지](https://github.com/yj5768)                             |                         [박지윤](https://github.com/Jiyun-Parkk)                          |                           [정경연](https://github.com/Cloudyee)                            |                           [박진영](https://github.com/jiny798)                            |
+|                                                                                            |                                                                                           |                                                                                            |                                                                                           |                                                                                            |                                                                                            |
+| :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: |
+| <img src="https://avatars.githubusercontent.com/u/93786956?v=4" width=150px alt="김수현"/> | <img src="https://avatars.githubusercontent.com/u/59864345?v=4" width=150px alt="복영빈"> | <img src="https://avatars.githubusercontent.com/u/119517146?v=4" width=150px alt="임예지"> | <img src="https://avatars.githubusercontent.com/u/72537762?v=4" width=150px alt="박지윤"> | <img src="https://avatars.githubusercontent.com/u/126961013?v=4" width=150px alt="정경연"> | <img src="https://avatars.githubusercontent.com/u/122027452?v=4" width=150px alt="박진영"> |
+|                            [김수현](https://github.com/ooutta)                             |                            [복영빈](https://github.com/yybeen)                            |                            [임예지](https://github.com/yj5768)                             |                         [박지윤](https://github.com/Jiyun-Parkk)                          |                           [정경연](https://github.com/Cloudyee)                            |                            [박진영](https://github.com/jiny798)                            |
 
 <br>
 <br>
@@ -44,7 +44,7 @@
 - 컴퓨터의 구성<br>
 - [중앙처리장치(CPU) 작동 원리](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Computer%20Architecture/CPU.md)<br>
 - [캐시 메모리](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Computer%20Architecture/CacheMemory.md)<br>
-- 고정 소수점 & 부동 소수점<br>
+- [고정 소수점 & 부동 소수점](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Computer%20Architecture/FixedPoint%26FloatingPoint.md)<br>
 - 패리티 비트 & 해밍 코드<br>
 - ARM 프로세서<br>
 </div>
@@ -78,7 +78,7 @@
 - [SQL Injection](https://github.com/woorifisa-tech/2023-CS-Study/blob/main/Database/SQL%20Injection.md)<br>
 - [SQL vs NoSQL](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Database/SQL%20vs%20NoSQL.md)<br>
 - [정규화(Normalization)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Database/Normalization.md)<br>
-- 이상(Anomaly)<br>
+- [이상(Anomaly)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Database/Anomaly.md)<br>
 - 인덱스(INDEX)<br>
 - 트랜잭션(Transaction)<br>
 - 트랜잭션 격리 수준(Transaction Isolation Level)<br>
@@ -138,7 +138,7 @@
 - 애자일(Agile) 정리1 / 애자일(Agile) 정리2<br>
 - 객체 지향 프로그래밍(Object-Oriented Programming)<br>
 - 함수형 프로그래밍(Fuctional Programming)<br>
-- 데브옵스(DevOps)<br>
+- [데브옵스(DevOps)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Software%20Engineering/DevOps.md)<br>
 - 서드 파티(3rd party)란?<br>
 - [마이크로서비스 아키텍처(MSA)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Software%20Engineering/MSA.md)<br>
 </div>
@@ -159,7 +159,7 @@
 - 계수 정렬(Count Sort)<br>
 - 이분 탐색(Binary Search)<br>
 - 해시 테이블 구현<br>
-- DFS & BFS<br>
+- [DFS & BFS](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Algorithm/DFS%26BFS.md)<br>
 - 최장 증가 수열(LIS)<br>
 - 최소 공통 조상(LCA)<br>
 - 동적 계획법(Dynamic Programming)<br>
