@@ -5,7 +5,7 @@
 - [프로세스 주소 공간](https://github.com/woorifisa-member/2023-CS-Study/blob/main/OS/Process%20address%20space.md)
 - 인터럽트(Interrupt)
 - [시스템 콜(System Call)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/OS/System%20Call.md)
-- PCB와 Context Switching
+- [PCB와 Context Switching](https://github.com/woorifisa-member/2023-CS-Study/blob/main/OS/PCB%20%26%20Context%20Switching.md)
 - IPC(Inter Process Communication)
 - CPU 스케줄링
 - 데드락(DeadLock)
