@@ -7,6 +7,6 @@
 - [힙(Heap)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Data%20Structure/Heap.md)
 - [트리(Tree)](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Data%20Structure/Tree.md)
 - 이진탐색트리(Binary Search Tree)
-- 해시(Hash)
+- [ 해시(Hash) ](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Data%20Structure/Hash.md)
 - 트라이(Trie)
 - B-Tree & B+Tree
