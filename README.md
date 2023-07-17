@@ -188,9 +188,9 @@
 <details>
 <summary>Java</summary>
 <div markdown="1">
-
+  
 - [enum](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Java/enum.md)
-
+- [Annotation](https://github.com/woorifisa-member/2023-CS-Study/blob/main/Java/Annotation.md)
 </div>
 </details>
 <br>
