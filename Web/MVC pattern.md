@@ -25,7 +25,7 @@
     - 이러한 "관심사 분리" 는 `더 나은 업무의 분리와 향상된 관리를 제공`
 
 <div align='center'>   
-    <img src="img/mvc pattern_2.jpg" width="750px">
+    <img src="img/mvc pattern_2.png" width="750px">
 </div>
 <br>
 
@@ -87,14 +87,14 @@ MVC 패턴에는 모델 1 방식과 모델 2 방식이 있다.
 
 ### **📌 Model 1**
 <div align='center'>   
-    <img src="img/mvc pattern_3.jpg" width="750px">
+    <img src="img/mvc pattern_3.png" width="750px">
 </div>
 
 모델 1 방식은 Controller 영역에 View 영역을 같이 구현하는 방식이며, 사용자의 요청을 JSP가 전부 처리한다. 요청을 받은 JSP는 JavaBean Service Class를 사용하여 웹브라우저 사용자가 요청한 작업을 처리하고 그 결과를 출력한다.
 
 ### **📌 Model 2**
 <div align='center'>   
-    <img src="img/mvc pattern_4.jpg" width="750px">
+    <img src="img/mvc pattern_4.png" width="750px">
 </div>
 모델 2 방식은 웹브라우저 사용자의 요청을 서블릿이 받고 서블릿은 해당 요청으로 View로 보여줄 것인지 Model로 보낼 것인지를 판단하여 전송한다. HTML 소스와 JAVA소스를 분리해놓았기 때문에 모델 1 방식에 비해 확장시키기도 쉽고 유지보수가 쉽다.
 <br>
@@ -112,7 +112,7 @@ MVC 패턴에는 모델 1 방식과 모델 2 방식이 있다.
 
 ## 3. 예시 
 <div align='center'>   
-    <img src="img/mvc pattern_5.jpg" width="750px">
+    <img src="img/mvc pattern_5.png" width="300px">
 </div>
 
 ### **✔️ 위의 개념을 WEB에 적용 시!**
@@ -143,7 +143,33 @@ MVC 패턴에는 모델 1 방식과 모델 2 방식이 있다.
 
 ### 4_2. 단점 : **MVC 패턴의 한계**
 MVC패턴에서 View는 Controller에 연결되어 화면을 구성하는 단위 요소이므로 다수의 View를 가질 수 있다. 그리고 Model은 Controller를 통해서 View와 연결되지만, Controller에 의해서 하나의 View에 연결될 수 있는 Model도 여러 개가 될 수 있어 View와 Model이 서로 의존성을 띄게 된다. <br>
-`즉, Controller에 다수의 Model과 View가 복잡하게 연결되어 있는 상황이 발생할 수 도 있다.`
+`즉, Controller에 다수의 Model과 View가 복잡하게 연결되어 있는 상황이 발생할 수 도 있다.`<br>
+이러한 현상을 `Massive-View-Controller현상`이라고 하며 `이를 보완하기 위해 MVP, MVVM, Flux, Redux등의 다양한 패턴`들이 생겨났습니다.
 <br><br>
 
 ## 5. 기술 면접 예시
+1. MVC 패턴 동작방식에 대해 설명해 주세요.<br>
+```
+MVC패턴이란 웹 어플리케이션을 Model, View, Controller라는 영역으로 나누어,
+Model은 app과 데이터 베이스 사이에 오고가는 데이터(비즈니스 데이터)를 담당하며 View는 web에 보여지기 위한 표현 부분을 담당합니다.
+Controller는 Model과 View 영역 사이에 위치하며, 각 영역 간의 통신을 담당합니다.
+```
+<br>
+2. model1과 model2의 패턴의 차이?
+
+```
+model1과 model2의 가장 큰 차이는 View의 역할.
+modl1은 Controller가 View의 역할까지 수행, 프로젝트 제작 기간이 단축되지만 코드의 재사용성이 낮다.
+(JSP/Sevlet<->Service/DAO)
+
+model2는 Controllelr가 View와 차별화됨으로써 프로젝트 제작 기간이 늘어나지만 코드의 재사용성이 높다.
+(JSP<->Servlet<->Service/DAO)
+```   
+
+
+
+## 참고 자료
+[MVC의 개념](https://developer.mozilla.org/ko/docs/Glossary/MVC)
+[MVC개념과 패턴방식](https://cocoon1787.tistory.com/733)
+[MVC 기술 면접 예시](https://jishushu.tistory.com/entry/%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC%EA%B8%B0%EC%88%A0%EB%A9%B4%EC%A0%91-%EC%A4%80%EB%B9%84Web)
+[스프링 기술 면접 예시](https://yiyj1030.tistory.com/454)
